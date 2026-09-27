@@ -203,7 +203,7 @@ class TestBitcoinCli(BitcoinTestFramework):
         assert_raises_process_error(1, "Cookie file was disabled via -norpccookiefile and no rpcpassword was specified.", self.nodes[0].cli("-norpccookiefile", "-rpcpassword=").echo)
 
         self.log.info("Test connecting with invalid cookie file")
-        assert_raises_process_error(1, "Cookie file credentials were invalid and no rpcpassword was specified.", self.nodes[0].cli(f"-rpccookiefile={self.nodes[0].datadir_path / 'bitcoin.conf'}").echo)
+        assert_raises_process_error(1, "Cookie file credentials were invalid and no rpcpassword was specified.", self.nodes[0].cli(f"-rpccookiefile={self.nodes[0].datadir_path / 'trap.conf'}").echo)
 
         self.log.info("Test connecting without RPC cookie file and with password arg")
         assert_equal(BLOCKS, self.nodes[0].cli('-norpccookiefile', f'-rpcuser={user}', f'-rpcpassword={password}').getblockcount())
@@ -257,7 +257,7 @@ class TestBitcoinCli(BitcoinTestFramework):
             wallet_info = self.nodes[0].getwalletinfo()
             assert_equal(int(cli_get_info['Keypool size']), wallet_info['keypoolsize'])
             assert_equal(int(cli_get_info['Unlocked until']), wallet_info['unlocked_until'])
-            assert_equal(Decimal(cli_get_info['Min tx relay fee rate (BTC/kvB)']), network_info['relayfee'])
+            assert_equal(Decimal(cli_get_info['Min tx relay fee rate (TRAP/kvB)']), network_info['relayfee'])
             assert_equal(self.nodes[0].cli.getwalletinfo(), wallet_info)
 
             # Setup to test -getinfo, -generate, and -rpcwallet= with multiple wallets.
@@ -458,7 +458,7 @@ class TestBitcoinCli(BitcoinTestFramework):
             # This tests behavior when ENABLE_IPC is off. When it is on,
             # behavior is checked by the interface_ipc_cli.py test.
             self.log.info("Test bitcoin-cli -ipcconnect triggers error if not built with IPC support")
-            # node.cli.options includes -rpcconnect which can't be combined with -ipcconnect, so pass just -datadir directly to keep bitcoin-cli on the test's bitcoin.conf
+            # node.cli.options includes -rpcconnect which can't be combined with -ipcconnect, so pass just -datadir directly to keep bitcoin-cli on the test's trap.conf
             args = self.nodes[0].binaries.valgrind_cmd + [self.nodes[0].binaries.paths.bitcoincli, f"-datadir={self.nodes[0].datadir_path}", "-ipcconnect=unix", "-getinfo"]
             result = subprocess.run(args, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
             assert_equal(result.stdout, "error: bitcoin-cli was not built with IPC support\n")

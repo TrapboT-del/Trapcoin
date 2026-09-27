@@ -203,7 +203,7 @@ class WalletSendTest(BitcoinTestFramework):
         self.restart_node(0, extra_args=['-minrelaytxfee=0.00020000', '-maxfeerate=0.0001'])
         assert_raises_rpc_error(-4,
                                 "Invalid amount for -maxfeerate=<amount>: '0.0001' "
-                                "(must be at least the minrelay fee of 0.00020000 BTC/kvB "
+                                "(must be at least the minrelay fee of 0.00020000 TRAP/kvB "
                                 "to prevent stuck transactions)",
                                 self.nodes[0].createwallet, "w_maxfeerate_below_minrelay")
         self.restart_node(0)

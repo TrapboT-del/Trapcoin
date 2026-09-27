@@ -136,7 +136,7 @@ class BumpFeeTest(BitcoinTestFramework):
         self.log.info("Test invalid fee rate settings")
 
         # Bumping to a very high fee rate above the default -maxfeerate should fail
-        assert_raises_rpc_error(-4, "New fee rate 1.00 BTC/kvB is too high (cannot be higher than -maxfeerate 0.10 BTC/kvB)",
+        assert_raises_rpc_error(-4, "New fee rate 1.00 TRAP/kvB is too high (cannot be higher than -maxfeerate 0.10 TRAP/kvB)",
             rbf_node.bumpfee, rbfid, fee_rate=TOO_HIGH)
 
         # Test fee_rate with zero values.
@@ -576,7 +576,7 @@ def test_maxtxfee_fails(self, rbf_node, dest_address):
     low_max_tx_fee = '0.00000100'
     high_max_tx_fee = '0.001'
     high_min_relay_fee = '0.00020000'
-    msg = f"Invalid amount for -maxtxfee=<amount>: '{low_max_tx_fee} BTC/kvB' conflicts with the minimum relay transaction feerate {high_min_relay_fee} BTC/kvB. Please set a higher -maxtxfee or lower -minrelaytxfee"
+    msg = f"Invalid amount for -maxtxfee=<amount>: '{low_max_tx_fee} TRAP/kvB' conflicts with the minimum relay transaction feerate {high_min_relay_fee} TRAP/kvB. Please set a higher -maxtxfee or lower -minrelaytxfee"
     self.restart_node(1, extra_args=[f'-minrelaytxfee={high_min_relay_fee}', f'-maxtxfee={low_max_tx_fee}'])
     warnings = self.nodes[1].createwallet("test-wallet")["warnings"]
     assert msg in warnings
@@ -587,7 +587,7 @@ def test_maxtxfee_fails(self, rbf_node, dest_address):
     very_high_max_tx_fee = '2.00000000'
     very_high_min_relay_fee = '3.00000000'
     high_fee_msg = "-maxtxfee is set very high! Fees this large could be paid on a single transaction."
-    conflict_msg = f"Invalid amount for -maxtxfee=<amount>: '{very_high_max_tx_fee} BTC/kvB' conflicts with the minimum relay transaction feerate {very_high_min_relay_fee} BTC/kvB. Please set a higher -maxtxfee or lower -minrelaytxfee"
+    conflict_msg = f"Invalid amount for -maxtxfee=<amount>: '{very_high_max_tx_fee} TRAP/kvB' conflicts with the minimum relay transaction feerate {very_high_min_relay_fee} TRAP/kvB. Please set a higher -maxtxfee or lower -minrelaytxfee"
     self.start_node(1, extra_args=[f'-minrelaytxfee={very_high_min_relay_fee}', f'-maxtxfee={very_high_max_tx_fee}'])
     warnings = self.nodes[1].createwallet("test-wallet-very-high")["warnings"]
     assert high_fee_msg in warnings
