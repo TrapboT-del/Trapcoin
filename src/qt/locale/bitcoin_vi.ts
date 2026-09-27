@@ -137,7 +137,7 @@
         <translation>Log Cụm Mật Khẩu</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your TRAP from being stolen by malware infecting your computer.</source>
         <translation>Xin lưu ý rằng mật mã hóa ví của bạn không thể bảo vệ hoàn toàn bitcoin của bạn khỏi đánh cắp bởi các phẩn mềm gián điệp nhiễm vào máy tính của bạn.</translation>
     </message>
     <message>
@@ -223,7 +223,7 @@
         <translation>%1 khách</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to TRAP network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation><numerusform>%n đang hoạt động kết nối với mạng lưới Bitcoin</numerusform></translation>
     </message>
@@ -406,7 +406,7 @@
         <translation>Mớ ví</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a trap: URI</source>
         <translation>Mở một bitcoin: URI</translation>
     </message>
     <message>
@@ -438,7 +438,7 @@
         <translation>Đóng ứng dụng</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and trap: URIs)</source>
         <translation>Yêu cầu thanh toán (tạo QR code và bitcoin: URIs)</translation>
     </message>
     <message>
@@ -460,7 +460,7 @@
         <translation>Khôi phục và di chuyển tập tin ví…</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a TRAP address</source>
         <translation>Gửi coin đến một địa chỉ Bitcoin</translation>
     </message>
     <message>
@@ -480,7 +480,7 @@
         <translation>Hiện thông tin về Qt</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible TRAP command-line options</source>
         <translation>Hiển thị %1 tin nhắn hỗ trợ để nhận được danh sách Bitcoin command-line khả dụng</translation>
     </message>
     <message>
@@ -492,7 +492,7 @@
         <translation>Hiển thị danh sách các địa chỉ và nhãn đã dùng để gửi</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your TRAP addresses to prove you own them</source>
         <translation>Đăng ký lời nhắn với địa chỉ Bitcoin của bạn để chứng minh quyền sở hữu chúng</translation>
     </message>
     <message>
@@ -518,7 +518,7 @@
         <translation>Đã cập nhật</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified TRAP addresses</source>
         <translation>Xác minh lời nhắn để chắc chắn đã được đăng ký với địa chỉ Bitcoin xác định</translation>
     </message>
     <message>
@@ -767,7 +767,7 @@
         <translation>Địa chỉ  nhập "%1" đã có trong sổ địa chỉ với nhãn "%2".</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid TRAP address.</source>
         <translation>Address đã nhập "%1" không valid Bitcoin address.</translation>
     </message>
     <message>
@@ -808,7 +808,7 @@
 <context>
     <name>Intro</name>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the TRAP block chain.</source>
         <translation>%1 sẽ download và lưu trữ một bản copy của Bitcoin block chain.</translation>
     </message>
     <message numerus="yes">
@@ -888,7 +888,7 @@
         <translation>%1 đang được đồng bộ. Header và block sẽ được download từ các nốt lân cận và thẩm định tới khi đạt đỉnh của blockchain.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend TRAP that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Cố gắng spend các bitcoins bị ảnh hưởng bởi các giao dịch chưa được hiển thị sẽ không được chấp nhận bởi mạng.</translation>
     </message>
     <message>
@@ -916,14 +916,14 @@
         <translation>Tiến độ tăng mỗi giờ</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the TRAP network, as detailed below.</source>
         <translation>Giao dịch gần đây có thể chưa được hiển thị, và vì vậy số dư wallet của bạn có thể không dúng. Thông tin này sẽ được làm đúng khi wallet hoàn thành đồng bộ với bitcoin network, như chi tiết bên dưới.</translation>
     </message>
     </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open trap URI</source>
         <translation>Mở bitcoin URI</translation>
     </message>
     <message>
@@ -1019,11 +1019,11 @@
         <translation>Confirm tùy chọn reset</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the TRAP network through a SOCKS5 proxy.</source>
         <translation>Kết nối đến Bitcoin network qua một SOCKS5 proxy.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <source>Connect to the TRAP network through a separate SOCKS5 proxy for Tor onion services.</source>
         <translation>Kết nối với mạng Bitcoin thông qua proxy SOCKS5 riêng cho các dịch vụ Tor</translation>
     </message>
     <message>
@@ -1135,7 +1135,7 @@
         <translation>Giao dịch gần đây</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TRAP network after a connection is established, but this process has not completed yet.</source>
         <translation>Thông tin được hiển thị có thể đã lỗi thời. Cái wallet tự động đồng bộ với Bitcoin network sau một connection được thiết lập, nhưng quá trình này vẫn chưa completed yet.</translation>
     </message>
     <message>
@@ -1261,7 +1261,7 @@
         <translation>'bitcoin://' không khả dụng URI. Dùng thay vì 'bitcoin:' .</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start trap: click-to-pay handler</source>
         <translation>Không thể khởi tạo bitcoin: click-to-pay handler</translation>
     </message>
     <message>
@@ -1269,7 +1269,7 @@
         <translation>Payment request file đang xử lý</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid TRAP address or malformed URI parameters.</source>
         <translation>URI không thể phân tích cú pháp! Đây có thể gây nên bởi invalid Bitcoin address hoặc URI không đúng định dạng tham số.</translation>
     </message>
     </context>
@@ -1343,7 +1343,7 @@
         <translation>Số lượng</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a TRAP address (e.g. %1)</source>
         <translation>Nhập một Bitcoin address (e.g. %1)</translation>
     </message>
     </context>
@@ -1576,7 +1576,7 @@
         <translation>Một thông báo tùy chọn được đính kèm với yêu cầu thanh toán và có thể được hiển thị cho người gửi.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TRAP network.</source>
         <translation>Một optional lời nhắn để đính kèm đến payment request, cái mà sẽ được hiển thị khi mà request đang mở. Lưu ý: Tin nhắn này sẽ không được gửi với payment over the Bitcoin network.</translation>
     </message>
     <message>
@@ -1887,7 +1887,7 @@
         <translation>Warning: Không biết change address</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for TRAP transactions than the network can process.</source>
         <translation>Khi có khối lượng giao dịch ít hơn chổ trống trong các khối, các nhà đào mỏ cũng như các nút chuyển tiếp có thể thực thi chỉ với một khoản phí tối thiểu. Chỉ trả khoản phí tối thiểu này là tốt, nhưng lưu ý rằng điều này có thể dẫn đến một giao dịch không bao giờ xác nhận một khi có nhu cầu giao dịch bitcoin nhiều hơn khả năng mạng có thể xử lý.</translation>
     </message>
     <message>
@@ -1906,7 +1906,7 @@
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the trap: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TRAP network.</source>
         <translation>Một tin nhắn được đính kèm với số bitcoin: URI mà sẽ được lưu giữ với transaction dành cho tài liệu tham khảo. Lưu ý: Tin nhắn này sẽ không được gửi thông qua Bitcoin network.</translation>
     </message>
     <message>
@@ -1934,7 +1934,7 @@
         <translation>S&amp;ubtract fee từ amount</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The TRAP address to send the payment to</source>
         <translation>The Bitcoin address để gửi the payment đến</translation>
     </message>
     <message>
@@ -1942,7 +1942,7 @@
         <translation>Lượng tiền để gửi trong mỗi đơn vị đã chọn</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less TRAP than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>The fee sẽ được khấu trừ từ số tiền đang gửi. Người nhận sẽ receive ít bitcoins hơn bạn gõ vào khoảng trống. Nếu nhiều người gửi được chọn, fee sẽ được chia đều.</translation>
     </message>
     <message>
@@ -2008,7 +2008,7 @@
         <translation>Reset tất cả verify khoảng trống nhắn</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this TRAP address</source>
         <translation>Ký tin nhắn để chứng minh bạn sở hữu Bitcoin address này</translation>
     </message>
     <message>
@@ -2016,11 +2016,11 @@
         <translation>Chữ ký - Sign / Verify a Message</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The TRAP address the message was signed with</source>
         <translation>The Bitcoin address tin nhắn đã ký với</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The TRAP address to sign the message with</source>
         <translation>The Bitcoin address để ký với tin nhắn</translation>
     </message>
     <message>
@@ -2036,7 +2036,7 @@
         <translation>Tin nhắn đã được ký để xác nhận</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified TRAP address</source>
         <translation>Verify tin nhắn để chắc rằng nó đã được ký với xác định Bitcoin address</translation>
     </message>
     <message>

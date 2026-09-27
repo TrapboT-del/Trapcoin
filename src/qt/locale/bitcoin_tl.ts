@@ -84,12 +84,12 @@
         <translation>May mali sa pagsubok na i-save ang listahan ng address  sa %1. Pakisubukan ulit.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your TRAP addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Ito ang mga address ng ♦Bitcoin♦ para sa pagtanggap ng mga baya. Gamitin ang 'Create new receiving address' na button sa receive tab para gumawa ng bagong mga address. Ang pag-sign ay posible lamang sa uri ng mga address na 'legacy'.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TRAP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ito ang mga address mong Bitcoin para pagpapadala ng bayad. Palagi i-check mo ang amount at tinatanggap na address bagong magsesend ka ng mga coin.</translation>
     </message>
 </context>
@@ -151,7 +151,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>♦Passphrase♦ na ♦Dialog♦</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your TRAP from being stolen by malware infecting your computer.</source>
         <translation>Tandaan na ang pag-encrypt sa iyong pitaka ay hindi ganap na mapoprotektahan ang mga ♦bitcoin♦ sa pagnanakaw ng ♦malware♦ na makakahawa sa iyong kompyuter.</translation>
     </message>
     <message>
@@ -260,7 +260,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>%1 na kliyente</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to TRAP network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished"><numerusform /><numerusform /></translation>
     </message>
@@ -517,7 +517,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Buksan ang pitaka</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a trap: URI</source>
         <translation>Buksan ang ♦bitcoin: URI♦</translation>
     </message>
     <message>
@@ -549,11 +549,11 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Ihinto ang aplikasyon</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and trap: URIs)</source>
         <translation>Humiling ng mga bayad (gumagawa ng ♦QR codes♦ at ♦bitcoin: URIs♦)</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a TRAP address</source>
         <translation>Magpadala ng mga ♦coin♦ sa ♦address♦ ng Bitcoin</translation>
     </message>
     <message>
@@ -578,7 +578,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Ipakita ang impormasyon tungkol sa Qt</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible TRAP command-line options</source>
         <translation>Ipakita ang %1 tumulong sa mensahe na kumuha ng listahan ng posibleng ♦Bitcoin command-line♦ na mga pagpipilian</translation>
     </message>
     <message>
@@ -594,7 +594,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Pirmahan &amp;magmensahe...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your TRAP addresses to prove you own them</source>
         <translation>Tanda na mga mensahe sa mga ♦address♦ ng iyong ♦Bitcoin♦ para patunayan na pagmamay-ari mo sila</translation>
     </message>
     <message>
@@ -624,7 +624,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>napapapanahon</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified TRAP addresses</source>
         <translation>Patunayan ang mga mensahe para matiyak na sila ay napirmahan ng may tinukoy na mga ♦Bitcoin address♦</translation>
     </message>
     <message>
@@ -922,7 +922,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Ang naipasok na ♦address♦ "%1" ay nasa aklat na ng ♦address♦ na may tatak "%2".</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid TRAP address.</source>
         <translation>Ang naipasok na ♦address♦ "%1" ay hindi wasto na ♦Bitcoin address♦.</translation>
     </message>
     <message>

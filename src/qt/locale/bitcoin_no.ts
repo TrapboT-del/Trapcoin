@@ -93,12 +93,12 @@
         <translation>Det oppstod en feil under forsøk på å lagre adresselisten til %1. Vennligst prøv igjen.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your TRAP addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Dette er Bitcoin-adressene dine for å motta betalinger. Bruk knappen ‘Opprett ny mottaksadresse’ i mottaksfanen for å opprette nye adresser.Signering er kun mulig med adresser av typen ‘legacy’.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TRAP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dette er dine Bitcoin adresser for å sende betalinger.Alltid sjekk mengden og mottaker adressen før du sender mynter.  </translation>
     </message>
 </context>
@@ -172,7 +172,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Endring av passord mislyktes</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your TRAP from being stolen by malware infecting your computer.</source>
         <translation>Husk at kryptering av lommeboken din ikke fullt ut kan beskytte bitcoinene dine mot å bli stjålet av skadelig programvare som infiserer datamaskinen din.</translation>
     </message>
     <message>
@@ -293,7 +293,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>%1 klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to TRAP network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished"><numerusform /><numerusform /></translation>
     </message>
@@ -563,7 +563,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Åpne Lommebok</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a trap: URI</source>
         <translation>Åpne en bitcoin: URI</translation>
     </message>
     <message>
@@ -603,7 +603,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Avslutt programmet</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and trap: URIs)</source>
         <translation>Be om betalinger (genererer QR-koder og bitcoin: URIs)</translation>
     </message>
     <message>
@@ -626,7 +626,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>V&amp;is</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a TRAP address</source>
         <translation>Send mynter til en Bitcoin-adresse</translation>
     </message>
     <message>
@@ -651,7 +651,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Vis informasjon om Qt</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible TRAP command-line options</source>
         <translation>Vis %1 hjelpetekst for å få en liste over mulige Bitcoin kommandolinjealternativer</translation>
     </message>
     <message>
@@ -667,7 +667,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Signer &amp;melding…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your TRAP addresses to prove you own them</source>
         <translation>Signer meldinger med Bitcoin-adressene dine for å bevise at du eier dem</translation>
     </message>
     <message>
@@ -691,7 +691,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Oppdatert</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified TRAP addresses</source>
         <translation>Verifiser meldinger for å sikre at de ble signert med de spesifiserte Bitcoin-adressene</translation>
     </message>
     <message>

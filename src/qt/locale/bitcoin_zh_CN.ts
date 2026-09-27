@@ -92,14 +92,14 @@
         <translation>尝试保存地址列表到 %1 时发生错误。请再试一次。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your TRAP addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
-        <translation>这是您用来收款的比特币地址。使用“接收”标签页中的“创建新收款地址”按钮来创建新的收款地址。
+        <translation>这是您用来收款的TRAP地址。使用“接收”标签页中的“创建新收款地址”按钮来创建新的收款地址。
 只有“传统（legacy）”类型的地址支持签名。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>您可以给这些比特币地址付款。在付款之前，务必要检查金额和收款地址是否正确。</translation>
+        <source>These are your TRAP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>您可以给这些TRAP地址付款。在付款之前，务必要检查金额和收款地址是否正确。</translation>
     </message>
 </context>
 <context>
@@ -172,8 +172,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>修改密码失败</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
-        <translation>请注意，当您的计算机感染恶意软件时，加密钱包并不能完全规避您的比特币被偷窃的可能。</translation>
+        <source>Remember that encrypting your wallet cannot fully protect your TRAP from being stolen by malware infecting your computer.</source>
+        <translation>请注意，当您的计算机感染恶意软件时，加密钱包并不能完全规避您的TRAP被偷窃的可能。</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
@@ -233,7 +233,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果把钱包加密后又忘记密码，你就会从此&lt;b&gt;失去其中所有的比特币了&lt;/b&gt;！</translation>
+        <translation>警告: 如果把钱包加密后又忘记密码，你就会从此&lt;b&gt;失去其中所有的TRAP了&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
@@ -293,7 +293,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>%1 客户端</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to TRAP network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished"><numerusform /></translation>
     </message>
@@ -571,7 +571,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>打开钱包</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a trap: URI</source>
         <translation>打开bitcoin:开头的URI</translation>
     </message>
     <message>
@@ -611,7 +611,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>退出程序</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and trap: URIs)</source>
         <translation>请求支付 (生成二维码和 bitcoin: URI)</translation>
     </message>
     <message>
@@ -643,8 +643,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>显示(&amp;H)</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>向一个比特币地址发币</translation>
+        <source>Send coins to a TRAP address</source>
+        <translation>向一个TRAP地址发币</translation>
     </message>
     <message>
         <source>Sent transaction</source>
@@ -668,7 +668,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>显示 Qt 相关信息</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible TRAP command-line options</source>
         <translation>显示 %1 帮助信息，获取可用命令行选项列表</translation>
     </message>
     <message>
@@ -684,8 +684,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>签名消息(&amp;M)</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>用比特币地址关联的私钥为消息签名，以证明您拥有这个比特币地址</translation>
+        <source>Sign messages with your TRAP addresses to prove you own them</source>
+        <translation>用TRAP地址关联的私钥为消息签名，以证明您拥有这个TRAP地址</translation>
     </message>
     <message>
         <source>Synchronizing with network…</source>
@@ -714,8 +714,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>已是最新</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>校验消息，确保该消息是由指定的比特币地址所有者签名的</translation>
+        <source>Verify messages to ensure they were signed with specified TRAP addresses</source>
+        <translation>校验消息，确保该消息是由指定的TRAP地址所有者签名的</translation>
     </message>
     <message>
         <source>Wallet Data</source>
@@ -1033,8 +1033,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>输入的地址“%1”已经存在于地址簿中，标签为“%2”。</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>输入的地址 %1 并不是有效的比特币地址。</translation>
+        <source>The entered address "%1" is not a valid TRAP address.</source>
+        <translation>输入的地址 %1 并不是有效的TRAP地址。</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -1082,8 +1082,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>Intro</name>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
-        <translation>%1 将会下载并存储比特币区块链。</translation>
+        <source>%1 will download and store a copy of the TRAP block chain.</source>
+        <translation>%1 将会下载并存储TRAP区块链。</translation>
     </message>
     <message numerus="yes">
         <source>%n GB of space available</source>
@@ -1116,7 +1116,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
     </message>
     <message>
         <source>Bitcoin</source>
-        <translation>比特币</translation>
+        <translation>TRAP</translation>
     </message>
     <message>
         <source>Choose data directory</source>
@@ -1247,7 +1247,7 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation>%1目前正在同步中。它会从其他节点下载区块头和区块数据并进行验证，直到抵达区块链尖端。</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend TRAP that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>尝试使用受未可见交易影响的余额将不被网络接受。</translation>
     </message>
     <message>
@@ -1279,8 +1279,8 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation>每小时进度增加</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
-        <translation>近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与比特币网络完全同步后更正。详情如下</translation>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the TRAP network, as detailed below.</source>
+        <translation>近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与TRAP网络完全同步后更正。详情如下</translation>
     </message>
     <message>
         <source>Unknown. Pre-syncing Headers (%1, %2%)…</source>
@@ -1302,8 +1302,8 @@ The migration process will create a backup of the wallet before migrating. This 
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
-        <translation>打开比特币URI</translation>
+        <source>Open trap URI</source>
+        <translation>打开TRAPURI</translation>
     </message>
     <message>
         <source>Paste address from clipboard</source>
@@ -1392,7 +1392,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>比特币金额单位(&amp;U):</translation>
+        <translation>TRAP金额单位(&amp;U):</translation>
     </message>
     <message>
         <source>&amp;Window</source>
@@ -1411,8 +1411,8 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation>允许传入连接(&amp;G)</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation>自动在路由器上打开比特币客户端端口。仅当您的路由器支持PCP或NAT-PMP并且已启用时才有效。外部端口可能是随机的。</translation>
+        <source>Automatically open the TRAP client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation>自动在路由器上打开TRAP客户端端口。仅当您的路由器支持PCP或NAT-PMP并且已启用时才有效。外部端口可能是随机的。</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
@@ -1424,7 +1424,7 @@ The migration process will create a backup of the wallet before migrating. This 
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择显示及发送比特币时使用的最小单位。</translation>
+        <translation>选择显示及发送TRAP时使用的最小单位。</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
@@ -1452,12 +1452,12 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation>确认恢复默认设置</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
-        <translation>通过 SOCKS5 代理连接比特币网络。</translation>
+        <source>Connect to the TRAP network through a SOCKS5 proxy.</source>
+        <translation>通过 SOCKS5 代理连接TRAP网络。</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
-        <translation>连接比特币网络时专门为Tor onion服务使用另一个 SOCKS5 代理。</translation>
+        <source>Connect to the TRAP network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <translation>连接TRAP网络时专门为Tor onion服务使用另一个 SOCKS5 代理。</translation>
     </message>
     <message>
         <source>Continue</source>
@@ -1704,8 +1704,8 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation>最近交易</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>现在显示的消息可能是过期的。在连接上比特币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TRAP network after a connection is established, but this process has not completed yet.</source>
+        <translation>现在显示的消息可能是过期的。在连接上TRAP网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
@@ -1875,7 +1875,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
 如果您看到了这个错误，您应该要求商家提供兼容BIP21的URI。</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start trap: click-to-pay handler</source>
         <translation>无法启动 bitcoin: 协议的“一键支付”处理程序</translation>
     </message>
     <message>
@@ -1887,8 +1887,8 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation>支付请求文件处理</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
-        <translation>无法解析 URI 地址！可能是因为比特币地址无效，或是 URI 参数格式错误。</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid TRAP address or malformed URI parameters.</source>
+        <translation>无法解析 URI 地址！可能是因为TRAP地址无效，或是 URI 参数格式错误。</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2048,8 +2048,8 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation>嵌入的 "%1"</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
-        <translation>请输入一个比特币地址 (例如 %1)</translation>
+        <source>Enter a TRAP address (e.g. %1)</source>
+        <translation>请输入一个TRAP地址 (例如 %1)</translation>
     </message>
     <message>
         <source>Error: %1</source>
@@ -2380,8 +2380,8 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation>网络活动已禁用</translation>
     </message>
     <message>
-        <source>Network addresses that your Bitcoin node is currently using to communicate with other nodes.</source>
-        <translation>您的比特币节点正在使用网络地址与其他节点联系。</translation>
+        <source>Network addresses that your TRAP node is currently using to communicate with other nodes.</source>
+        <translation>您的TRAP节点正在使用网络地址与其他节点联系。</translation>
     </message>
     <message>
         <source>Never</source>
@@ -2659,8 +2659,8 @@ For more information on using this console, type %6.
         <translation>一条附加到付款请求中的可选消息，可以显示给付款方。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
-        <translation>可在支付请求上备注一条信息，在打开支付请求时可以看到。注意:该消息不是通过比特币网络传送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TRAP network.</source>
+        <translation>可在支付请求上备注一条信息，在打开支付请求时可以看到。注意:该消息不是通过TRAP网络传送。</translation>
     </message>
     <message>
         <source>Base58 (Legacy)</source>
@@ -3168,16 +3168,16 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation>警告: 目前无法进行手续费估计。</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>警告: 比特币地址无效</translation>
+        <source>Warning: Invalid TRAP address</source>
+        <translation>警告: TRAP地址无效</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
         <translation>警告:未知的找零地址</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>当交易量小于可用区块空间时，矿工和中继节点可能会执行最低手续费率限制。按照这个最低费率来支付手续费也是可以的，但请注意，一旦交易需求超出比特币网络能处理的限度，你的交易可能永远也无法确认。</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for TRAP transactions than the network can process.</source>
+        <translation>当交易量小于可用区块空间时，矿工和中继节点可能会执行最低手续费率限制。按照这个最低费率来支付手续费也是可以的，但请注意，一旦交易需求超出TRAP网络能处理的限度，你的交易可能永远也无法确认。</translation>
     </message>
     <message>
         <source>automatically selected</source>
@@ -3199,8 +3199,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation>标签(&amp;L):</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>bitcoin: URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过比特币网络传输。</translation>
+        <source>A message that was attached to the trap: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TRAP network.</source>
+        <translation>bitcoin: URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过TRAP网络传输。</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
@@ -3235,7 +3235,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation>从金额中减去交易费(&amp;U)</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The TRAP address to send the payment to</source>
         <translation>付款目的地址</translation>
     </message>
     <message>
@@ -3243,8 +3243,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation>用被选单位表示的待发送金额</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>交易费将从发送金额中扣除。接收人收到的比特币将会比您在金额框中输入的更少。如果选中了多个收件人，交易费平分。</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less TRAP than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>交易费将从发送金额中扣除。接收人收到的TRAP将会比您在金额框中输入的更少。如果选中了多个收件人，交易费平分。</translation>
     </message>
     <message>
         <source>Use available balance</source>
@@ -3356,7 +3356,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation>签名消息(&amp;M)</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this TRAP address</source>
         <translation>签名消息，以证明这个地址属于您</translation>
     </message>
     <message>
@@ -3368,11 +3368,11 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation>签名 - 为消息签名/验证签名消息</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The TRAP address the message was signed with</source>
         <translation>用来签名消息的地址</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The TRAP address to sign the message with</source>
         <translation>用来对消息签名的地址</translation>
     </message>
     <message>
@@ -3400,16 +3400,16 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation>验证消息签名(&amp;M)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
-        <translation>验证消息，确保消息是由指定的比特币地址签名过的。</translation>
+        <source>Verify the message to ensure it was signed with the specified TRAP address</source>
+        <translation>验证消息，确保消息是由指定的TRAP地址签名过的。</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
         <translation>已取消解锁钱包。</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your legacy (P2PKH) addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>您可以与您的 (P2PKH)格式 地址签署消息 / 协议，以证明您可以接收发送给它们的比特币。钓鱼攻击可能试图欺骗您签署您的身份，所以请仔细分辨，不要签署任何含混不清的协议。只签署你完全认同并理解的协议 / 消息。</translation>
+        <source>You can sign messages/agreements with your legacy (P2PKH) addresses to prove you can receive TRAP sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>您可以与您的 (P2PKH)格式 地址签署消息 / 协议，以证明您可以接收发送给它们的TRAP。钓鱼攻击可能试图欺骗您签署您的身份，所以请仔细分辨，不要签署任何含混不清的协议。只签署你完全认同并理解的协议 / 消息。</translation>
     </message>
 </context>
 <context>
@@ -3483,7 +3483,7 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>新挖出的比特币在可以使用前必须经过 %1 个区块确认的成熟过程。当您挖出此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，在另一个节点比你早几秒钟成功挖出一个区块时就会这样。</translation>
+        <translation>新挖出的TRAP在可以使用前必须经过 %1 个区块确认的成熟过程。当您挖出此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，在另一个节点比你早几秒钟成功挖出一个区块时就会这样。</translation>
     </message>
     <message>
         <source>Inputs</source>

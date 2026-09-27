@@ -96,13 +96,13 @@
         <translation>Villa undir goymslu av adressuskrá í %1. Vinaliga royn aftur.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your TRAP addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Hetta eru tínar Bitcoin adressur at móttakað við. Vel 'Framleið nýggja inngjaldsadressu', undir Móttak-skiljiblaðnum fyri at útroknað nýggjar adressur.
 Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TRAP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hetta eru goymdar Bitcoin adressur at senda til. Kanna altíð upphæddina og útgjaldsadressuna áðrenn hvørja flyting.</translation>
     </message>
 </context>
@@ -176,7 +176,7 @@ Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</t
         <translation>Miseydnaðist at broyta loyniorð</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your TRAP from being stolen by malware infecting your computer.</source>
         <translation>Hav í huga at tað at brongla tína mappu ikki er ein fullfíggjað verja ímóti stuldri av tínum bitcoins av illbúnaði á tíni teldu.</translation>
     </message>
     <message>
@@ -297,7 +297,7 @@ Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</t
         <translation>%1 viðskiftari</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to TRAP network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation><numerusform>%n virkið samband til Bitcoin netið.</numerusform><numerusform>%n virkin sambond til Bitcoin netið.</numerusform></translation>
     </message>
@@ -591,7 +591,7 @@ Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</t
         <translation>Innles mappu</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a trap: URI</source>
         <translation>Innles eitt bitcoin: URI</translation>
     </message>
     <message>
@@ -631,7 +631,7 @@ Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</t
         <translation>Sløkk forrit</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and trap: URIs)</source>
         <translation>Umbið gjald (framleiður QR kotu og bitcoin: URI'ir)</translation>
     </message>
     <message>
@@ -671,7 +671,7 @@ Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</t
         <translation>Goym eygleiðingarmappuúttak</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a TRAP address</source>
         <translation>Send myntir til eina Bitcoin adressu</translation>
     </message>
     <message>
@@ -696,7 +696,7 @@ Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</t
         <translation>Vís kunning um Qt</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible TRAP command-line options</source>
         <translation>Vís %1 hjálpartekstin fyri ein lista við Bitcoin stýriboð-linju møgulleikum</translation>
     </message>
     <message>
@@ -712,7 +712,7 @@ Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</t
         <translation>&amp;Undirrita boð…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your TRAP addresses to prove you own them</source>
         <translation>Undirrita boðini við tíni Bitcoin-adressu fyri at prógva at tey eru tíni</translation>
     </message>
     <message>
@@ -746,7 +746,7 @@ Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</t
         <translation>Samstillaður</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified TRAP addresses</source>
         <translation>Sannroyn boð til tess at tryggja at tey vóru undirritaði av ásettu Bitcoin adressuni</translation>
     </message>
     <message>
@@ -1073,7 +1073,7 @@ Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</t
         <translation>Inntøppaða adressan "%1" er longu í adressubókini við spjaldrinum "%2".</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid TRAP address.</source>
         <translation>Inntøppaða adressan "%1" er ikki ein gildig Bitcoin adressa.</translation>
     </message>
     <message>
@@ -1126,7 +1126,7 @@ Undirritan, av boðum, er einans møgulig fyri 'legacy' (eldri) adressusløg.</t
         <translation>GB</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the TRAP block chain.</source>
         <translation>%1 tekur niður og goymir eitt avrit av Bitcoin blokkketuni.</translation>
     </message>
     <message numerus="yes">
@@ -1329,7 +1329,7 @@ Trygdaravritið verður kallað &lt;wallet name&gt;-&lt;timestamp&gt;.legacy.bak
         <translation>%1 samstillar í løtuni. Tað tekur niður og váttar blokkhøvd og blokkar, frá javningum; fram til endan á blokkketuni.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend TRAP that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Netið góðtekur ikki nýtslu av bitcoins, ið hesin knúturin ikki enn hevur kunnleika til og harvið ikki vera vístar.</translation>
     </message>
     <message>
@@ -1361,7 +1361,7 @@ Trygdaravritið verður kallað &lt;wallet name&gt;-&lt;timestamp&gt;.legacy.bak
         <translation>Framgongd um tíman</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the TRAP network, as detailed below.</source>
         <translation>Nýggjari flytingar eru enn ókendar, og tí kann vísta saldan, á mappuni, vera óeftirfarandi. Kunningin gerst tíðarhóskandi tá tín knútur er samstillaður við bitcoin netið; nágreina niðanfyri.</translation>
     </message>
     <message>
@@ -1384,7 +1384,7 @@ Trygdaravritið verður kallað &lt;wallet name&gt;-&lt;timestamp&gt;.legacy.bak
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open trap URI</source>
         <translation>Innles bitcoin URI</translation>
     </message>
     <message>
@@ -1493,7 +1493,7 @@ Trygdaravritið verður kallað &lt;wallet name&gt;-&lt;timestamp&gt;.legacy.bak
         <translation>Loyv &amp;inngangandi sambondum</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random.</source>
+        <source>Automatically open the TRAP client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random.</source>
         <translation>Sjálvvirkin upplating av Bitcoin viðskiftara portrið á beinaranum. Hetta virkar bert um tín beinari hevur PCP ella NAT-PMP virkisføri. Ytra portrið kann vera tilvildarligt.</translation>
     </message>
     <message>
@@ -1534,11 +1534,11 @@ Trygdaravritið verður kallað &lt;wallet name&gt;-&lt;timestamp&gt;.legacy.bak
         <translation>Vátta endursetan av stillingum</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the TRAP network through a SOCKS5 proxy.</source>
         <translation>Sambind við Bitcoin netið umvegis ein SOCKS5 proxy.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <source>Connect to the TRAP network through a separate SOCKS5 proxy for Tor onion services.</source>
         <translation>Sambind við Bitcoin netið umvegis ein serstakan SOCKS5 proxy, til at røkka Tor-onion-tænastum.</translation>
     </message>
     <message>
@@ -1786,7 +1786,7 @@ Trygdaravritið verður kallað &lt;wallet name&gt;-&lt;timestamp&gt;.legacy.bak
         <translation>Seinastu flytingar</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TRAP network after a connection is established, but this process has not completed yet.</source>
         <translation>Vísta kunningin kann vera ótíðarhóskandi. Tín knútur samstillar við Bitcoin netið, sjálvvirkandi, eftir at samband er fingið við tað; men tann tilgongdin er ikki liðug enn.</translation>
     </message>
     <message>
@@ -1957,7 +1957,7 @@ Vegnað væl kend trygdarhol í BIP70, er harðliga frámælt at fylgja boðum, 
 Fært tú hesi feilboð, skalt tú biðja seljaran, ella tann vinnurekandi, útflýggja tær eitt BIP21-sínamillumvirki URI.</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start trap: click-to-pay handler</source>
         <translation>Bar ikki til at byrja bitcoin: click-to-pay handfaran</translation>
     </message>
     <message>
@@ -1969,7 +1969,7 @@ Fært tú hesi feilboð, skalt tú biðja seljaran, ella tann vinnurekandi, útf
         <translation>Fílu-gjaldsumbøn handfaring</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid TRAP address or malformed URI parameters.</source>
         <translation>Bar ikki til at tulkað URI! Tað kann standast av ógildigari Bitcoin adressu ella avskeplaðum URI ávirkjum.</translation>
     </message>
     <message>
@@ -2109,7 +2109,7 @@ Fært tú hesi feilboð, skalt tú biðja seljaran, ella tann vinnurekandi, útf
         <translation>Viðfest "%1"</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a TRAP address (e.g. %1)</source>
         <translation>Inntøppa eina Bitcoin adressu (t.d. %1)</translation>
     </message>
     <message>
@@ -2446,7 +2446,7 @@ Fært tú hesi feilboð, skalt tú biðja seljaran, ella tann vinnurekandi, útf
         <translation>Net-virksemi óvirkt</translation>
     </message>
     <message>
-        <source>Network addresses that your Bitcoin node is currently using to communicate with other nodes.</source>
+        <source>Network addresses that your TRAP node is currently using to communicate with other nodes.</source>
         <translation>Tín Bitcoin knútur brúkar fylgjandi net-atsetur at samskifta við aðrar knútar.</translation>
     </message>
     <message>
@@ -2730,7 +2730,7 @@ Fyri meira upplýsingar um nýtslu av hesi stýristøð, skriva og send %6.
         <translation>Eini valfríð boð ið verða knýtt í gjaldsumbønina og kunnu verða víst fyri sendaranum.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TRAP network.</source>
         <translation>Eini valfríð boð at festa í gjaldsumbønina, ið kunnu verða víst, tá umbønin verður latin upp. Hav í huga: Boðini verða ikki send, við gjaldinum, umvegis Bitcoin netið.</translation>
     </message>
     <message>
@@ -3245,7 +3245,7 @@ Gev gætur: Av tí at avgjaldið verður roknað fyri hvørt být, fer ein avgja
         <translation>Gev gætur: Meting um avgjald er ikki møgulig í løtuni</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid TRAP address</source>
         <translation>Ávaring: Ógildig Bitcoin adressa</translation>
     </message>
     <message>
@@ -3253,7 +3253,7 @@ Gev gætur: Av tí at avgjaldið verður roknað fyri hvørt být, fer ein avgja
         <translation>Ávaring: Ókend adressa til vekslipening</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for TRAP transactions than the network can process.</source>
         <translation>Tá nøgdin av flytingum er minni enn pláss er fyri teimum, í blokkunum, kunnu blokk-útvinnarar og framsendandi knútar hava lágmark fyri flytingaravgjald. Tað er í lagið at gjalda hesa minstu upphædd sum flytingaravgjald, men hav í huga at tað kann elva til at flytingin ongantíð verður váttað, tá eftirspurningurin, eftir bitcoin flytingum, er stórri enn netið kann útinna.</translation>
     </message>
     <message>
@@ -3280,7 +3280,7 @@ Gev gætur: Av tí at avgjaldið verður roknað fyri hvørt být, fer ein avgja
         <translation>&amp;Spjaldur:</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the trap: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TRAP network.</source>
         <translation>Eini boð, ið vóru partur at bitcoin: URI'inum, ið verða goymd saman við flytingini, og sum tú kann brúka sum tilvísing. Hav í huga: Boðini verða ikki send, við gjaldinum, umvegis Bitcoin netið.</translation>
     </message>
     <message>
@@ -3324,7 +3324,7 @@ Gev gætur: Av tí at avgjaldið verður roknað fyri hvørt být, fer ein avgja
         <translation>&amp;Draga avgjald frá upphædd</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The TRAP address to send the payment to</source>
         <translation>Bitcoin adressan at rinda til</translation>
     </message>
     <message>
@@ -3332,7 +3332,7 @@ Gev gætur: Av tí at avgjaldið verður roknað fyri hvørt být, fer ein avgja
         <translation>Upphædd at flyta, í valdu eindini</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less TRAP than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Avgjaldið verður drigi frá sendu upphæddini. Móttakarin móttekur færri bitcoins enn tú ásetur í upphædd teiginum. Um fleiri móttakaraadressur eru ásettar verður avgjaldið javnt býtt.</translation>
     </message>
     <message>
@@ -3449,7 +3449,7 @@ Gev gætur: Av tí at avgjaldið verður roknað fyri hvørt být, fer ein avgja
         <translation>&amp;Undirrita boð</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this TRAP address</source>
         <translation>Undirskriva boðini fyri at prógva at Bitcoin-adressan er tín</translation>
     </message>
     <message>
@@ -3461,11 +3461,11 @@ Gev gætur: Av tí at avgjaldið verður roknað fyri hvørt být, fer ein avgja
         <translation>Undirskriftir - Undirrita / Vátta eini boð</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The TRAP address the message was signed with</source>
         <translation>Bitcoin-adressan ið undirskrivaði boðini</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The TRAP address to sign the message with</source>
         <translation>Bitcoin adressan at undirskriva boðini við</translation>
     </message>
     <message>
@@ -3497,7 +3497,7 @@ Gev gætur: Av tí at avgjaldið verður roknað fyri hvørt být, fer ein avgja
         <translation>Vátta &amp;boð</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified TRAP address</source>
         <translation>Vátta at boðini vóru undirritað av ásettu Bitcoin adressuni</translation>
     </message>
     <message>
@@ -3505,7 +3505,7 @@ Gev gætur: Av tí at avgjaldið verður roknað fyri hvørt být, fer ein avgja
         <translation>Mappu-upplating var avbrotin.</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your legacy (P2PKH) addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your legacy (P2PKH) addresses to prove you can receive TRAP sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Tú kann undirrita boð/sáttmálar við tínum legacy/eldru (P2PKH) adressum, fyri at prógva at tú kann móttaka bitcoins, sendar til tær. Ver ansin so tú ikki skrivar undir nakað ógreitt ella tilvildarligt, tí fysking-álop kunnu royna at snýta teg til at latað tín samleika til tey. Undirrita bert nágreiniligar útsagnir sum tú tekur undir við.</translation>
     </message>
 </context>

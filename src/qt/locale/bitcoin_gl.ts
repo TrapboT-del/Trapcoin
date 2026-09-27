@@ -96,13 +96,13 @@
         <translation>Houbo un erro tentando gardar a lista de enderezos en %1. Por favor proba de novo.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your TRAP addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Estes son os teus enderezos de Bitcoin para recibir pagamentos. Emprega o botón 'Crear novo enderezo para recibir pagamentos' na solapa de recibir para crear novos enderezos.
 Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TRAP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Estas son as túas direccións Bitcoin para enviar pagos. Revisa sempre a cantidade e a dirección receptora antes de enviar moedas.</translation>
     </message>
 </context>
@@ -176,7 +176,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>Produciuse un erro no cambio de frase de contrasinal</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your TRAP from being stolen by malware infecting your computer.</source>
         <translation>Recorda que encriptar a tua carteira non protexe completamente que os teus bitcoins poidan ser roubados por malware que afecte ó teu computador.</translation>
     </message>
     <message>
@@ -297,7 +297,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>%1 cliente</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to TRAP network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished"><numerusform /><numerusform /></translation>
     </message>
@@ -511,7 +511,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>Abrir Moedeiro</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a trap: URI</source>
         <translation>Abre una URI de Bitcoin</translation>
     </message>
     <message>
@@ -547,11 +547,11 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>Saír da aplicación</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and trap: URIs)</source>
         <translation>Solicitar pagamentos (xera códigos QR e bitcoin: URIs)</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a TRAP address</source>
         <translation>Enviar moedas a unha dirección Bitcoin</translation>
     </message>
     <message>
@@ -571,7 +571,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>Amosar información acerca de Qt</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible TRAP command-line options</source>
         <translation>Mostra a %1 mensaxe de axuda para obter unha lista cas posibles opcións de línea de comando de Bitcoin </translation>
     </message>
     <message>
@@ -587,7 +587,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>Asinar &amp;mensaxe…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your TRAP addresses to prove you own them</source>
         <translation>Asina mensaxes cos teus enderezos Bitcoin para probar que che pertencen</translation>
     </message>
     <message>
@@ -617,7 +617,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>Actualizado</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified TRAP addresses</source>
         <translation>Verifica mensaxes para asegurar que foron asinados con enderezos Bitcoin específicos.</translation>
     </message>
     <message>
@@ -869,7 +869,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>O enderezo introducido "%1" xa existe na axenda de enderezos ca etiqueta "%2".</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid TRAP address.</source>
         <translation>A dirección introducida '%1' non é unha dirección Bitcoin válida.</translation>
     </message>
     <message>
@@ -1114,7 +1114,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>Transaccións recentes</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TRAP network after a connection is established, but this process has not completed yet.</source>
         <translation>A información amosada por estar desactualizada. O teu moedeiro sincronízase automáticamente coa rede Bitcoin despois de que se estableza unha conexión, mais este proceso non está todavía rematado.</translation>
     </message>
     <message>
@@ -1530,7 +1530,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>Tarifa de transacción</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid TRAP address</source>
         <translation>Atención:  Enderezo Bitcoin non válido</translation>
     </message>
     <message>
@@ -1644,7 +1644,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>Asinar &amp;Mensaxe</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this TRAP address</source>
         <translation>Asina a mensaxe para probar que posúes este enderezo Bitcoin</translation>
     </message>
     <message>
@@ -1672,7 +1672,7 @@ Firmar é posible unicamente con enderezos de tipo 'legacy'.</translation>
         <translation>Verificar &amp;Mensaxe</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified TRAP address</source>
         <translation>Verificar a mensaxe para asegurar que foi asinada coa dirección Bitcoin especificada</translation>
     </message>
     <message>

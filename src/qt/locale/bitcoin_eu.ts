@@ -96,13 +96,13 @@
         <translation>Akats bat egon da helbide lista %1-ean gordetzen sahiatzean. Mesedez, saiatu berriro.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your TRAP addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Hauek dira ordainketak jasotzeko zure Bitcoin helbideak. Helbide berriak sortzeko, erabili 'Jasotzeko helbide berria sortu' botoia "jasotzea" fitxan.
 Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TRAP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hauek dira zuk dirua jaso dezaketen Bitcoin helbideak. Egiaztatu beti diru-kopurua eta dirua jasoko duen helbidea zuzen egon daitezen, txanponak bidali baino lehen.</translation>
     </message>
 </context>
@@ -176,7 +176,7 @@ Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
         <translation>Pasahitzaren aldaketa huts egin du</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your TRAP from being stolen by malware infecting your computer.</source>
         <translation>Gogoan izan diruzorroaren enkripzioak ezin dituela zure bitcoinak zure ordenagailuan izan dezakezun malware batengandik lapurtuak izatetik guztiz babestu .</translation>
     </message>
     <message>
@@ -297,7 +297,7 @@ Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
         <translation>%1 bezeroa</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to TRAP network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished"><numerusform /><numerusform /></translation>
     </message>
@@ -591,7 +591,7 @@ Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
         <translation>Diruzorroa zabaldu</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a trap: URI</source>
         <translation>Ireki bitcoin bat: URI</translation>
     </message>
     <message>
@@ -631,7 +631,7 @@ Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
         <translation>Aplikaziotik irten</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and trap: URIs)</source>
         <translation>Ordainketak eskatu (QR kodeak eta bitcoin: URIak sortzen ditu)</translation>
     </message>
     <message>
@@ -671,7 +671,7 @@ Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
         <translation>Gorde watch-only zorroaren esportazioa</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a TRAP address</source>
         <translation>Bidali txanponak Bitcoin helbide batera</translation>
     </message>
     <message>
@@ -696,7 +696,7 @@ Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
         <translation>Erakutsi Qt-ren buruzko informazioa</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible TRAP command-line options</source>
         <translation>Erakutsi %1(r)en laguntza-mezua Bitcoin-en komando-lerroko aukera posibleen zerrenda lortzeko.</translation>
     </message>
     <message>
@@ -712,7 +712,7 @@ Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
         <translation>sinatu &amp;mezua</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your TRAP addresses to prove you own them</source>
         <translation>Sinatu mezuak Bitcoinen helbideekin, jabetza frogatzeko.</translation>
     </message>
     <message>
@@ -746,7 +746,7 @@ Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
         <translation>Eguneratua</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified TRAP addresses</source>
         <translation>Egiaztatu mesua Bitcoin helbide espezifikoarekin erregistratu direla ziurtatzeko</translation>
     </message>
     <message>
@@ -1073,7 +1073,7 @@ Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
         <translation>Sartutako "%1" helbidea dagoeneko dago helbide-liburuan "%2" etiketa duela.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid TRAP address.</source>
         <translation>Sartutako "%1" helbidea ez da baliozko Bitcoin helbide bat.</translation>
     </message>
     <message>
@@ -1126,7 +1126,7 @@ Sinatzea soilik posible da 'legacy' motako helbideekin.</translation>
         <translation>GB</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the TRAP block chain.</source>
         <translation>%1Bitcoin bloke-katearen kopia bat deskargatu eta gordeko du.</translation>
     </message>
     <message numerus="yes">
@@ -1328,7 +1328,7 @@ Migrazio-prozesuak zorroaren segurtasun-kopia bat sortuko du migratu aurretik. S
         <translation>%1orain sinkronizatzen ari da. Kideen buruak eta blokeak deskargatuko ditu, eta balioztatuko ditu bloke-katearen punturik gorenera iritsi arte.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend TRAP that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>Oraindik bistaratugabe dauden transakzioek eragindako bitcoin-ak gastatzen saiatzea ez du sareak onartuko.</translation>
     </message>
     <message>
@@ -1360,7 +1360,7 @@ Migrazio-prozesuak zorroaren segurtasun-kopia bat sortuko du migratu aurretik. S
         <translation>Aurrerapenaren igoera orduko</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the TRAP network, as detailed below.</source>
         <translation>Azken transakzioak baliteke oraindik ikusgai ez egotea, eta, hortaz, zure zorroaren saldoa ez da zuzena izan daiteke. Informazio hau eguneratua egongo da zure zorroa Bitcoin sarearekin sinkronizatzea amaitzen duenean, behean zehazten den bezala.</translation>
     </message>
     <message>
@@ -1383,7 +1383,7 @@ Migrazio-prozesuak zorroaren segurtasun-kopia bat sortuko du migratu aurretik. S
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open trap URI</source>
         <translation>Ireki bitcoin URIa</translation>
     </message>
     <message>
@@ -1496,7 +1496,7 @@ Migrazio-prozesuak zorroaren segurtasun-kopia bat sortuko du migratu aurretik. S
         <translation>Sarbide konexioak baimendu</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random.</source>
+        <source>Automatically open the TRAP client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random.</source>
         <translation>Bitcoin bezeroaren portua automatikoki ireki router-ean. Honek bakarrik funtzionatzen du zure router-ak PCP edo NAT-PMP onartzen badu eta gaituta badago. Kanpoko portua ausazkoa izan daiteke.</translation>
     </message>
     <message>
@@ -1537,11 +1537,11 @@ Migrazio-prozesuak zorroaren segurtasun-kopia bat sortuko du migratu aurretik. S
         <translation>Berretsi aukeren berrezarpena</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the TRAP network through a SOCKS5 proxy.</source>
         <translation>Bitcoin sarearekin konektatu SOCKS5 proxy baten bidez.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <source>Connect to the TRAP network through a separate SOCKS5 proxy for Tor onion services.</source>
         <translation>Bitcoin sarearekin konektatu Tor onion zerbitzuetarako bereizitako SOCKS5 proxy baten bidez.</translation>
     </message>
     <message>
@@ -1793,7 +1793,7 @@ Migrazio-prozesuak zorroaren segurtasun-kopia bat sortuko du migratu aurretik. S
         <translation>Transakzio berriak</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TRAP network after a connection is established, but this process has not completed yet.</source>
         <translation>Erakutsitako informazioa zaharkituta egon daiteke. Zure zorroak automatikoki sinkronizatzen du Bitcoin sarearekin konexioa ezarri ondoren, baina prozesu hori oraindik ez da amaitu.</translation>
     </message>
     <message>
@@ -1964,7 +1964,7 @@ BIP70en segurtasun-gabezia zabalengatik, irmoki gomendatzen da merkatariek diru-
 Errore hau jasotzen baduzu, merkatariei BIP21-arekin bateragarria den URI bat emateko eskatu beharko zenieke</translation>
     </message>
     <message>
-        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <source>Cannot start trap: click-to-pay handler</source>
         <translation>Ezin da Bitcoin abiarazi: klik-ordaintzeko kudeatzailea.</translation>
     </message>
     <message>
@@ -1976,7 +1976,7 @@ Errore hau jasotzen baduzu, merkatariei BIP21-arekin bateragarria den URI bat em
         <translation>Ordainketa eskaera fitxategiaren kudeaketa.</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid TRAP address or malformed URI parameters.</source>
         <translation>URIa ezin da analizatu! Hau Bitcoin helbide baliogabe batek edo gaizki osatutako URI parametroek eragin dezakete.</translation>
     </message>
     <message>
@@ -2121,7 +2121,7 @@ Errore hau jasotzen baduzu, merkatariei BIP21-arekin bateragarria den URI bat em
         <translation>"%1" barneratua</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a TRAP address (e.g. %1)</source>
         <translation>Sartu Bitcoin helbide bat (adibidez:%1 )</translation>
     </message>
     <message>
@@ -2456,7 +2456,7 @@ Errore hau jasotzen baduzu, merkatariei BIP21-arekin bateragarria den URI bat em
         <translation>Sareko jarduera desgaituta</translation>
     </message>
     <message>
-        <source>Network addresses that your Bitcoin node is currently using to communicate with other nodes.</source>
+        <source>Network addresses that your TRAP node is currently using to communicate with other nodes.</source>
         <translation>Zure Bitcoin nodoak beste nodoekin komunikatzeko une honetan erabiltzen dituen sare-helbideak.</translation>
     </message>
     <message>
@@ -2744,7 +2744,7 @@ Kontsola hau erabiltzeko informazio gehiago nahi izanez gero, idatzi .
         <translation>Ordainketa-eskaerari erantsitako mezu aukerakoa, eta igorleari bistara dakiokeena.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the TRAP network.</source>
         <translation>Ordainketa eskaerari erants dakiokeen mezu aukerakoa, eskaera irekitzen denean bistaratuko dena. Oharra: mezua ez da Bitcoin sarean zehar bidaliko ordainketarekin batera.</translation>
     </message>
     <message>
@@ -3256,7 +3256,7 @@ Oharra: Komisioa byte bakoitzeko kalkulatzen denez, "100 satoshi kvB bakoitzeko"
         <translation>Abisua: Une honetan ezinezkoa da komisioaren estimazioa egitea.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
+        <source>Warning: Invalid TRAP address</source>
         <translation>Abisua: Bitcoin helbide baliogabea</translation>
     </message>
     <message>
@@ -3264,7 +3264,7 @@ Oharra: Komisioa byte bakoitzeko kalkulatzen denez, "100 satoshi kvB bakoitzeko"
         <translation>Abisua: Itzulkinaren helbide ezezaguna</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for TRAP transactions than the network can process.</source>
         <translation>Transakzio-bolumena bloketan dagoen espazioa baino txikiagoa denean, meatzaileek zein nodo errepikatzaileek gutxieneko komisio bat ezar dezakete. Komisio horretara mugatzea egokia izan daiteke, baina kontuan izan: Bitcoin transakzioen eskaera sarearen gaitasuna baino handiagoa denean, gutxieneko komisioa duten transakzioak inoiz ez baieztatzeko arriskua dago.</translation>
     </message>
     <message>
@@ -3292,7 +3292,7 @@ Geroago komisioa handitu dezakezu.</translation>
         <translation>&amp;Etiketa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <source>A message that was attached to the trap: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TRAP network.</source>
         <translation>Bitcoin: URIari erantsitako mezua, transakzioarekin batera gordeko dena zure kontsultarako. Oharra: Mezu hau ez da Bitcoin sarean zehar bidaliko.</translation>
     </message>
     <message>
@@ -3328,7 +3328,7 @@ Geroago komisioa handitu dezakezu.</translation>
         <translation>Kendu komisioa zenbatekotik</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
+        <source>The TRAP address to send the payment to</source>
         <translation>Ordaina bidaltzeko Bitcoin helbidea</translation>
     </message>
     <message>
@@ -3336,7 +3336,7 @@ Geroago komisioa handitu dezakezu.</translation>
         <translation>Hautatutako unitatean bidali beharreko zenbatekoa</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less TRAP than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
         <translation>Komisioa bidaltzen ari zaren zenbatekotik kenduko da. Hartzaileak zenbateko eremuan sartzen duzun baino bitcoin gutxiago jasoko ditu. Hartzaile bat baino gehiago hautatzen badira, komisioa berdin banatuko da.</translation>
     </message>
     <message>
@@ -3449,7 +3449,7 @@ Geroago komisioa handitu dezakezu.</translation>
         <translation>Sinatu &amp;Mezua</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
+        <source>Sign the message to prove you own this TRAP address</source>
         <translation>Sinatu mezua Bitcoin helbide horren jabe zarela frogatzeko</translation>
     </message>
     <message>
@@ -3461,11 +3461,11 @@ Geroago komisioa handitu dezakezu.</translation>
         <translation>Sinadurak - Mezu bat Sinatu / Egiaztatu</translation>
     </message>
     <message>
-        <source>The Bitcoin address the message was signed with</source>
+        <source>The TRAP address the message was signed with</source>
         <translation>Mezua sinatzeko erabili zen Bitcoin helbidea</translation>
     </message>
     <message>
-        <source>The Bitcoin address to sign the message with</source>
+        <source>The TRAP address to sign the message with</source>
         <translation>Mezua sinatzeko erabiliko den Bitcoin helbidea</translation>
     </message>
     <message>
@@ -3497,7 +3497,7 @@ Geroago komisioa handitu dezakezu.</translation>
         <translation>&amp;Egiaztatu Mezua</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified TRAP address</source>
         <translation>Egiaztatu mezua, zehaztutako Bitcoin helbidearekin sinatua izan zela bermatzeko</translation>
     </message>
     <message>
@@ -3505,7 +3505,7 @@ Geroago komisioa handitu dezakezu.</translation>
         <translation>Zorroaren desblokeoa bertan behera utzi da.</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your legacy (P2PKH) addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <source>You can sign messages/agreements with your legacy (P2PKH) addresses to prove you can receive TRAP sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Mezuak edo akordioak sinatu ditzakezu zure jatorrizko (P2PKH) helbideekin, helbide horietara bidalitako bitcoinak jasotzeko gaitasuna duzula frogatzeko. Kontuz ibili mezu lauso edo ausazkoak sinatzean, phishing erasoei esker zure identitatea lapurtu nahi dizuten iruzurrezko eskaerak izan baitaitezke. Sinatu soilik xehetasun osoak dituzten eta ados zauden adierazpenak.</translation>
     </message>
 </context>

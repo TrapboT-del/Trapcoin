@@ -92,7 +92,7 @@
         <translation>Мекенжай тізімін %1 дегенге сақтағанда, қате пайда болды. Қайталап көріңіз. </translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TRAP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Бұл сіздің төлем жіберетін Bitcoin мекенжайларыңыз. Тиын жібермес бұрын, әрқашан сома мен алушы мекенжайын тексеріңіз.</translation>
     </message>
 </context>
@@ -166,7 +166,7 @@
         <translation>Парольді ауыстыру іске аспады</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your TRAP from being stolen by malware infecting your computer.</source>
         <translation>Шифрлау биткоиніңізді компьютер жұқтырған зиянды БЖ-дан толығымен қорғай алмайтынын есіңізде сақтаңыз.</translation>
     </message>
     <message>
@@ -263,7 +263,7 @@
         <translation>%1 клиент</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to TRAP network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished"><numerusform /><numerusform /></translation>
     </message>
@@ -502,7 +502,7 @@
         <translation>Қосымшадан шығу</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and trap: URIs)</source>
         <translation>Төлем талап ету (QR  кодтары мен биткоин құрады: URI)</translation>
     </message>
     <message>
@@ -520,7 +520,7 @@
         <translation>&amp;Көрсету</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a TRAP address</source>
         <translation>Bitcoin мекенжайына тиын жіберу</translation>
     </message>
     <message>
@@ -548,7 +548,7 @@
         <translation>Хатқа &amp;қол қою…</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your TRAP addresses to prove you own them</source>
         <translation>Хатқа Bitcoin мекенжайларыныңызды қосып, олар сізге тиесілі екенін дәлелдейді</translation>
     </message>
     <message>
@@ -574,7 +574,7 @@
         <translation>Жаңартылған</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified TRAP addresses</source>
         <translation>Хат тексеріп, берілген Bitcoin мекенжайлары қосылғанына көз жеткізеді</translation>
     </message>
     <message>
@@ -757,7 +757,7 @@
         <translation> ГБ</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the TRAP block chain.</source>
         <translation>%1 Bitcoin блокчейнінің көшірмесін жүктеп сақтайды.</translation>
     </message>
     <message numerus="yes">
@@ -865,7 +865,7 @@
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open trap URI</source>
         <translation>Биткоин URI ашу</translation>
     </message>
     </context>

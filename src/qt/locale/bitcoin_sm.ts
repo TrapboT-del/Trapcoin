@@ -92,12 +92,12 @@
         <translation>Sa i ai se mea sese i le taumafai e teu ai le lisi o 'address' i %1. Fa'amalie atu, taumafa'i mai fo'i.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your TRAP addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>O nei o au tuatusi Bitcoin mo le talia o totogi. Fa'aaoga le fa'amau 'Fausia se tuatusi fou mo le talia' i le fa'amau talia e fa'atupu ai ni tuatusi fou. E mafai ona sainia na'o tuatusi o le ituaiga 'legacy'.</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TRAP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>O nei o au tuatusi Bitcoin mo le auina atu o totogi. Ia e siaki pea le aofa'i ma le tuatusi e talia ai tupe a'o le'i lafoina atu tupe.</translation>
     </message>
 </context>
@@ -171,7 +171,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Na failed le suia o le passphrase</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your TRAP from being stolen by malware infecting your computer.</source>
         <translation>Manatua o le fa'amaonia o lau atigipusa e le mafai ona puipuia lelei lau bitcoins mai le fa'ama'i o malware o lo'o fa'ama'i i lau komepiuta.</translation>
     </message>
     <message>
@@ -288,7 +288,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>%1 tagata faʻatau</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to TRAP network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished"><numerusform /></translation>
     </message>
@@ -562,7 +562,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Tatala le Uati</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a trap: URI</source>
         <translation>Tuuina se bitcoin: URI</translation>
     </message>
     <message>
@@ -602,7 +602,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Taofi le talosaga</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and trap: URIs)</source>
         <translation>Talosaga mo totogi (faʻatupuina ni QR code ma bitcoin: URIs)</translation>
     </message>
     <message>
@@ -625,7 +625,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Fa'&amp;aali</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a TRAP address</source>
         <translation>Fa'amaimau fa'amaoniga i se tuatusi Bitcoin</translation>
     </message>
     <message>
@@ -650,7 +650,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Fa'aalia fa'amaoniga e uiga i le Qt</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible TRAP command-line options</source>
         <translation>Fa'aalia le %1 fe'au fesoasoani e maua ai se lisi ma avanoa o pologa laina fa'atonu Bitcoin</translation>
     </message>
     <message>
@@ -666,7 +666,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>Saini &amp; feʻau...</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
+        <source>Sign messages with your TRAP addresses to prove you own them</source>
         <translation>Saini feʻau i au tuatusi Bitcoin e fa'amaonia ai o oe e ona</translation>
     </message>
     <message>
@@ -690,7 +690,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>I le taimi nei</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified TRAP addresses</source>
         <translation>Fa'amaonia manatu e fa'amaonia ai na'o le 'alelesi fa'amaonia i tuatusi Bitcoin fa'amaonia</translation>
     </message>
     <message>
@@ -1009,7 +1009,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>O le adiresi na ulufale mai "%1" o lo'o i le tusi adiresi ma le fa'amaoniga "%2".</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <source>The entered address "%1" is not a valid TRAP address.</source>
         <translation>O le "adresi" na tuʻufaʻatasia "%1" e le o se adresi Bitcoin talafeagai.</translation>
     </message>
     <message>
@@ -1058,7 +1058,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
 <context>
     <name>Intro</name>
     <message>
-        <source>%1 will download and store a copy of the Bitcoin block chain.</source>
+        <source>%1 will download and store a copy of the TRAP block chain.</source>
         <translation>O le %1 o le a tusia ma teuina se kopi o le Bitcoin block chain.</translation>
     </message>
     <message numerus="yes">
@@ -1224,7 +1224,7 @@ O le fa'amaoniga o le malaga o le a fai se kopi o le 'aofa'i a'o le'i fa'aauau l
         <translation>O lo'o fa'amaonia i le taimi nei %1. O le a uta o fa'amaoniga ma pa'u mai i tagata e fa'atau, ma fa'amaonia i latou se'ia o'o i le pito o le 'upega tetele o pa'u.</translation>
     </message>
     <message>
-        <source>Attempting to spend bitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+        <source>Attempting to spend TRAP that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
         <translation>O le taumafaiga e fa'aaoga bitcoins e a'afia i le fa'amaoniga e le'i fa'aalia o le a le taliaina e le upega.</translation>
     </message>
     <message>
@@ -1256,7 +1256,7 @@ O le fa'amaoniga o le malaga o le a fai se kopi o le 'aofa'i a'o le'i fa'aauau l
         <translation>O le faaauauina o le tupu i le itula</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the bitcoin network, as detailed below.</source>
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the TRAP network, as detailed below.</source>
         <translation>E mafai e fefaʻatauaiga lata mai ona le mafai ona vaʻaia, ma o le mea lea, atonu e le tusa ai le tamaʻi palani o lau 'wallet'. O lenei fa'amaoniga o le a sa'o pe a mae'a ona fa'atufugaga lau 'wallet' ma le upega tafaʻilagi o le bitcoin, e pei o fa'amaoniga i lalo.</translation>
     </message>
     <message>
@@ -1279,7 +1279,7 @@ O le fa'amaoniga o le malaga o le a fai se kopi o le 'aofa'i a'o le'i fa'aauau l
 <context>
     <name>OpenURIDialog</name>
     <message>
-        <source>Open bitcoin URI</source>
+        <source>Open trap URI</source>
         <translation>Tatala le URI o le Bitcoin</translation>
     </message>
     <message>
@@ -1425,11 +1425,11 @@ O le fa'amaoniga o le malaga o le a fai se kopi o le 'aofa'i a'o le'i fa'aauau l
         <translation>Fa'amaonia le toe seti o filifiliga</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a SOCKS5 proxy.</source>
+        <source>Connect to the TRAP network through a SOCKS5 proxy.</source>
         <translation>Sii i luga i le upega tafaʻilagi o Bitcoin i le ala o le SOCKS5 proxy.</translation>
     </message>
     <message>
-        <source>Connect to the Bitcoin network through a separate SOCKS5 proxy for Tor onion services.</source>
+        <source>Connect to the TRAP network through a separate SOCKS5 proxy for Tor onion services.</source>
         <translation>Sopọ i le netiweke Bitcoin i se faʻaogaina SOCKS5 ese mo auaunaga Tor onion.</translation>
     </message>
     <message>
@@ -1664,7 +1664,7 @@ O le fa'amaoniga o le malaga o le a fai se kopi o le 'aofa'i a'o le'i fa'aauau l
         <translation>Fa'amaoniga talu ai</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the TRAP network after a connection is established, but this process has not completed yet.</source>
         <translation>O faʻamatalaga o loʻo faʻaalia atonu e le o toe faʻafouina. E otometi lava ona faʻatulagaina lau ʻato tupe i le upega Bitcoin pe a maeʻa ona fesoʻotaʻi, ae e leʻi maeʻa lenei faiga.</translation>
     </message>
     <message>

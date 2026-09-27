@@ -96,13 +96,13 @@
         <translation>儲存地址列表到 %1 時發生錯誤。請再試一次。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
+        <source>These are your TRAP addresses for receiving payments. Use the 'Create new receiving address' button in the receive tab to create new addresses.
 Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>你将使用以下的地址接受付款。按在收款选项卡中 “产生新收款地址” 按钮来生成新地址。
 签名只能使用“传统”类型的地址。</translation>
     </message>
     <message>
-        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your TRAP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>這些是你要付款過去的 Bitcoin 位址。在付款之前，務必要檢查金額和收款位址是否正確。</translation>
     </message>
 </context>
@@ -176,7 +176,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>修改密码失败</translation>
     </message>
     <message>
-        <source>Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <source>Remember that encrypting your wallet cannot fully protect your TRAP from being stolen by malware infecting your computer.</source>
         <translation>請記得將錢包加密不能完全防止你的 Bitcoins 經被入侵電腦的惡意程式偷取。</translation>
     </message>
     <message>
@@ -297,7 +297,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>%1 客户端</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Bitcoin network.</source>
+        <source>%n active connection(s) to TRAP network.</source>
         <extracomment>A substring of the tooltip.</extracomment>
         <translation type="unfinished"><numerusform /></translation>
     </message>
@@ -530,7 +530,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>開啟錢包</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI</source>
+        <source>Open a trap: URI</source>
         <translation>打开bitcoin:开头的URI</translation>
     </message>
     <message>
@@ -566,7 +566,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>結束應用程式</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
+        <source>Request payments (generates QR codes and trap: URIs)</source>
         <translation>要求付款 (產生QR碼 bitcoin: URIs)</translation>
     </message>
     <message>
@@ -598,7 +598,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>显示(&amp;H)</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a TRAP address</source>
         <translation>付款至一個 Bitcoin 位址</translation>
     </message>
     <message>
@@ -618,7 +618,7 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>顯示 Qt 相關資訊</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible Bitcoin command-line options</source>
+        <source>Show the %1 help message to get a list with possible TRAP command-line options</source>
         <translation>显示%1帮助消息以获得可能包含Bitcoin命令行选项的列表</translation>
     </message>
     <message>
@@ -630,8 +630,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>显示使用过的发送地址或标签的列表</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>用您的比特币地址签名信息，以证明拥有它们</translation>
+        <source>Sign messages with your TRAP addresses to prove you own them</source>
+        <translation>用您的TRAP地址签名信息，以证明拥有它们</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
@@ -652,8 +652,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>已更新至最新版本</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>验证消息，确保它们是用指定的比特币地址签名的</translation>
+        <source>Verify messages to ensure they were signed with specified TRAP addresses</source>
+        <translation>验证消息，确保它们是用指定的TRAP地址签名的</translation>
     </message>
     <message>
         <source>Wallet Data</source>
@@ -938,8 +938,8 @@ Signing is only possible with addresses of the type 'legacy'.</source>
         <translation>输入的地址“%1”在标签为“%2”的地址簿中已存在</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Bitcoin address.</source>
-        <translation>输入的地址"%1"不是有效的比特币地址。</translation>
+        <source>The entered address "%1" is not a valid TRAP address.</source>
+        <translation>输入的地址"%1"不是有效的TRAP地址。</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
@@ -1190,8 +1190,8 @@ The migration process will create a backup of the wallet before migrating. This 
         <translation>&amp;窗口</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random.</source>
-        <translation>自动在路由器上打开比特币客户端端口。仅当您的路由器支持PCP或NAT-PMP并且已启用时才有效。外部端口可能是随机的。</translation>
+        <source>Automatically open the TRAP client port on the router. This only works when your router supports PCP or NAT-PMP and it is enabled. The external port could be random.</source>
+        <translation>自动在路由器上打开TRAP客户端端口。仅当您的路由器支持PCP或NAT-PMP并且已启用时才有效。外部端口可能是随机的。</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
@@ -1511,7 +1511,7 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation>嵌入的 "%1"</translation>
     </message>
     <message>
-        <source>Enter a Bitcoin address (e.g. %1)</source>
+        <source>Enter a TRAP address (e.g. %1)</source>
         <translation>輸入一個 Bitcoin 位址 (例如 %1)</translation>
     </message>
     <message>
@@ -1695,8 +1695,8 @@ If you are receiving this error you should request the merchant provide a BIP21 
         <translation>本地地址</translation>
     </message>
     <message>
-        <source>Network addresses that your Bitcoin node is currently using to communicate with other nodes.</source>
-        <translation>您的比特币节点正在使用网络地址与其他节点联系。</translation>
+        <source>Network addresses that your TRAP node is currently using to communicate with other nodes.</source>
+        <translation>您的TRAP节点正在使用网络地址与其他节点联系。</translation>
     </message>
     <message>
         <source>Never</source>
@@ -2172,12 +2172,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation>警告:目前无法估算费用。</translation>
     </message>
     <message>
-        <source>Warning: Invalid Bitcoin address</source>
-        <translation>警告：比特币地址无效</translation>
+        <source>Warning: Invalid TRAP address</source>
+        <translation>警告：TRAP地址无效</translation>
     </message>
     <message>
-        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for bitcoin transactions than the network can process.</source>
-        <translation>当交易量小于块的空间时，矿工和中继节点可以强制执行最低费用。只付最低费用就可以了，但注意，一旦比特币交易的需求超出网络的处理能力，就可能导致交易无法确认。</translation>
+        <source>When there is less transaction volume than space in the blocks, miners as well as relaying nodes may enforce a minimum fee. Paying only this minimum fee is just fine, but be aware that this can result in a never confirming transaction once there is more demand for TRAP transactions than the network can process.</source>
+        <translation>当交易量小于块的空间时，矿工和中继节点可以强制执行最低费用。只付最低费用就可以了，但注意，一旦TRAP交易的需求超出网络的处理能力，就可能导致交易无法确认。</translation>
     </message>
     </context>
 <context>
@@ -2187,8 +2187,8 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation>&amp;标签：</translation>
     </message>
     <message>
-        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
-        <translation>附在比特币上的消息:URI将与交易一起存储，供参考。注意：此信息不会通过比特币网络发送。</translation>
+        <source>A message that was attached to the trap: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the TRAP network.</source>
+        <translation>附在TRAP上的消息:URI将与交易一起存储，供参考。注意：此信息不会通过TRAP网络发送。</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2199,12 +2199,12 @@ Note:  Since the fee is calculated on a per-byte basis, a fee rate of "100 satos
         <translation>输入此地址的标签，将其添加到使用的地址列表中</translation>
     </message>
     <message>
-        <source>The Bitcoin address to send the payment to</source>
-        <translation>支付到的比特币地址</translation>
+        <source>The TRAP address to send the payment to</source>
+        <translation>支付到的TRAP地址</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less bitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>手续费将从发出的总额中扣除。接受者收到的比特币将少于你输入的金额字段。如果选择了多个接受者，手续费将平均分配。</translation>
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less TRAP than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+        <translation>手续费将从发出的总额中扣除。接受者收到的TRAP将少于你输入的金额字段。如果选择了多个接受者，手续费将平均分配。</translation>
     </message>
     </context>
 <context>
