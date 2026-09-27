@@ -74,7 +74,7 @@ class BitcoinChainstateTest(BitcoinTestFramework):
         datadir = n1.chain_path
         n1.stop_node()
         block = n0.getblock(n0.getblockhash(START_HEIGHT+1), 0)
-        self.log.info(f"Test bitcoin-chainstate {self.get_binaries().chainstate_argv()} with datadir: {datadir}")
+        self.log.info(f"Test trapcoin-chainstate {self.get_binaries().chainstate_argv()} with datadir: {datadir}")
         self.add_block(datadir, block, expected_stderr="Block has not yet been rejected")
         self.add_block(datadir, block, expected_stderr="duplicate")
         self.add_block(datadir, "00", expected_stderr="Block decode failed")
@@ -93,7 +93,7 @@ class BitcoinChainstateTest(BitcoinTestFramework):
         assert_equal(loaded['base_height'], SNAPSHOT_BASE_BLOCK_HEIGHT)
         datadir = n1.chain_path
         n1.stop_node()
-        self.log.info(f"Test bitcoin-chainstate {self.get_binaries().chainstate_argv()} with an assumeutxo datadir: {datadir}")
+        self.log.info(f"Test trapcoin-chainstate {self.get_binaries().chainstate_argv()} with an assumeutxo datadir: {datadir}")
         new_tip_hash = self.generate(n0, nblocks=1, sync_fun=self.no_op)[0]
         self.add_block(datadir, n0.getblock(new_tip_hash, 0), expected_stdout="Block tip changed")
 

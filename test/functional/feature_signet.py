@@ -142,10 +142,10 @@ class SignetBasicTest(BitcoinTestFramework):
 
     def test_cli_signetchallenge_hint(self):
         if not self.is_cli_compiled():
-            self.log.info("Skipping bitcoin-cli -signetchallenge hint test")
+            self.log.info("Skipping trapcoin-cli -signetchallenge hint test")
             return
 
-        self.log.info("Test that bitcoin-cli hints about -signetchallenge on a signet RPC auth failure")
+        self.log.info("Test that trapcoin-cli hints about -signetchallenge on a signet RPC auth failure")
         hint = "Is your -signetchallenge correct for custom signets?"
         # test custom signet node (0) and default signet node (3)
         for node_idx in [0, 3]:

@@ -305,7 +305,7 @@ std::vector<ImportResult> ProcessDescriptorsImport(CWallet& wallet,
                         timestamp, scanned_time - TIMESTAMP_WINDOW - 1, TIMESTAMP_WINDOW);
                     if (wallet.chain().havePruned()) {
                         error_msg += strprintf(" This error could be caused by pruning or data corruption "
-                            "(see bitcoind log for details) and could be dealt with by downloading and "
+                            "(see trapcoind log for details) and could be dealt with by downloading and "
                             "rescanning the relevant blocks (see -reindex option and rescanblockchain RPC).");
                     } else if (wallet.chain().hasAssumedValidChain()) {
                         error_msg += strprintf(" This error is likely caused by an in-progress assumeutxo "

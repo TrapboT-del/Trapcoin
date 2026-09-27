@@ -171,7 +171,7 @@ class P2PPrivateBroadcastRetryV1(BitcoinTestFramework):
 
         self.restart_node(0, extra_args=self.extra_args[0] + ["-v2transport=1"])
 
-        self.log.info("Opening a connection to a Tor addresses, so bitcoind considers -onion= is a real Tor proxy")
+        self.log.info("Opening a connection to a Tor addresses, so trapcoind considers -onion= is a real Tor proxy")
         node0.addnode(node="testonlyad777777777777777777777777777777777777777775b6qd.onion:1234", command="onetry", v2transport=False)
 
         self.log.info("Waiting for at least one Tor connection")

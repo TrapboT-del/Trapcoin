@@ -346,7 +346,7 @@ class InitTest(BitcoinTestFramework):
             self.log.debug(f"Restored previous RLIMIT_NOFILE limits (soft={soft}, hard={hard})")
 
     def init_rlimit_test(self):
-        """Test that bitcoind starts correctly when the soft RLIMIT_NOFILE limit is RLIM_INFINITY."""
+        """Test that trapcoind starts correctly when the soft RLIMIT_NOFILE limit is RLIM_INFINITY."""
         if self.RLIM_INFINITY is None:
             self.log.warning("Skipping: resource module not available")
             return
@@ -355,7 +355,7 @@ class InitTest(BitcoinTestFramework):
         self.restart_node_with_fd_limit(self.RLIM_INFINITY)
 
     def init_rlimit_large_test(self):
-        """Test that bitcoind starts correctly when the soft RLIMIT_NOFILE limit is above INT_MAX."""
+        """Test that trapcoind starts correctly when the soft RLIMIT_NOFILE limit is above INT_MAX."""
         if self.RLIM_INFINITY is None:
             self.log.warning("Skipping: resource module not available")
             return

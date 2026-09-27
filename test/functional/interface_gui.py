@@ -2,7 +2,7 @@
 # Copyright (c) The Bitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
-"""Test that bitcoin-gui starts up and can be stopped via RPC."""
+"""Test that trapcoin-gui starts up and can be stopped via RPC."""
 
 import platform
 
@@ -23,14 +23,14 @@ class GuiTest(BitcoinTestFramework):
         # causing the test framework's process monitor to see a premature node exit.
         # This issue is likely fixable.
         if platform.system() == "Windows":
-            raise SkipTest("bitcoin-gui test not supported on Windows")
+            raise SkipTest("trapcoin-gui test not supported on Windows")
 
     def setup_nodes(self):
         self.extra_init = [{"use_gui": True}]
         super().setup_nodes()
 
     def run_test(self):
-        self.log.info("Test that bitcoin-gui starts up and can be stopped via RPC")
+        self.log.info("Test that trapcoin-gui starts up and can be stopped via RPC")
         self.stop_node(0)
 
 

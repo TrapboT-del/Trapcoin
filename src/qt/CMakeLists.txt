@@ -271,6 +271,7 @@ target_link_libraries(bitcoin-qt
 
 import_plugins(bitcoin-qt)
 install_binary_component(bitcoin-qt HAS_MANPAGE)
+set_target_properties(bitcoin-qt PROPERTIES OUTPUT_NAME trapcoin-qt)
 
 if(ENABLE_IPC)
   add_executable(bitcoin-gui WIN32
@@ -285,6 +286,7 @@ if(ENABLE_IPC)
   )
   import_plugins(bitcoin-gui)
   install_binary_component(bitcoin-gui INTERNAL)
+  set_target_properties(bitcoin-gui PROPERTIES OUTPUT_NAME trapcoin-gui)
 endif()
 
 if(BUILD_GUI_TESTS)

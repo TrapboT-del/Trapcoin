@@ -41,20 +41,20 @@ class AsmapTest(BitcoinTestFramework):
             self.nodes[node_id].addpeeraddress(address=f"101.{addr}.0.0", tried=tried, port=8333)
 
     def test_without_asmap_arg(self):
-        self.log.info('Test bitcoind with no -asmap arg passed')
+        self.log.info('Test trapcoind with no -asmap arg passed')
         self.stop_node(0)
         with self.node.assert_debug_log(['Using /16 prefix for IP bucketing']):
             self.start_node(0)
         assert "asmap_version" not in self.node.getnetworkinfo()
 
     def test_noasmap_arg(self):
-        self.log.info('Test bitcoind with -noasmap arg passed')
+        self.log.info('Test trapcoind with -noasmap arg passed')
         self.stop_node(0)
         with self.node.assert_debug_log(['Using /16 prefix for IP bucketing']):
             self.start_node(0, ["-noasmap"])
 
     def test_asmap_with_absolute_path(self):
-        self.log.info('Test bitcoind -asmap=<absolute path>')
+        self.log.info('Test trapcoind -asmap=<absolute path>')
         self.stop_node(0)
         filename = os.path.join(self.datadir, 'my-map-file.map')
         shutil.copyfile(self.asmap_raw, filename)
@@ -64,7 +64,7 @@ class AsmapTest(BitcoinTestFramework):
         os.remove(filename)
 
     def test_asmap_with_relative_path(self):
-        self.log.info('Test bitcoind -asmap=<relative path>')
+        self.log.info('Test trapcoind -asmap=<relative path>')
         self.stop_node(0)
         name = 'ASN_map'
         filename = os.path.join(self.datadir, name)
@@ -75,7 +75,7 @@ class AsmapTest(BitcoinTestFramework):
 
     def test_embedded_asmap(self):
         if self.is_embedded_asmap_compiled():
-            self.log.info('Test bitcoind -asmap (using embedded map data)')
+            self.log.info('Test trapcoind -asmap (using embedded map data)')
             for arg in ['-asmap', '-asmap=1']:
                 self.stop_node(0)
                 with self.node.assert_debug_log(["Opened asmap data", "from embedded byte array",
@@ -83,14 +83,14 @@ class AsmapTest(BitcoinTestFramework):
                     self.start_node(0, [arg])
                 assert_equal(self.node.getnetworkinfo()["asmap_version"], EMBEDDED_VERSION)
         else:
-            self.log.info('Test bitcoind -asmap (compiled without embedded map data)')
+            self.log.info('Test trapcoind -asmap (compiled without embedded map data)')
             for arg in ['-asmap', '-asmap=1']:
                 self.stop_node(0)
                 msg = "Error: Embedded asmap data not available"
                 self.node.assert_start_raises_init_error(extra_args=[arg], expected_msg=msg)
 
     def test_asmap_interaction_with_addrman_containing_entries(self):
-        self.log.info("Test bitcoind -asmap restart with addrman containing new and tried entries")
+        self.log.info("Test trapcoind -asmap restart with addrman containing new and tried entries")
         self.stop_node(0)
         self.start_node(0, [f"-asmap={self.asmap_raw}", "-checkaddrman=1", "-test=addrman"])
         self.fill_addrman(node_id=0)
@@ -105,18 +105,18 @@ class AsmapTest(BitcoinTestFramework):
         ):
             self.node.getnodeaddresses()  # getnodeaddresses re-runs the addrman checks
 
-        self.log.info("Test bitcoind restart without -asmap re-buckets the addrman entries")
+        self.log.info("Test trapcoind restart without -asmap re-buckets the addrman entries")
         with self.node.assert_debug_log(expected_msgs=[rebucket_msg]):
             self.restart_node(0, ["-checkaddrman=1", "-test=addrman"])
 
     def test_asmap_with_missing_file(self):
-        self.log.info('Test bitcoind -asmap with missing map file')
+        self.log.info('Test trapcoind -asmap with missing map file')
         self.stop_node(0)
         msg = f"Error: Could not find asmap file \"{self.datadir}{os.sep}missing\""
         self.node.assert_start_raises_init_error(extra_args=['-asmap=missing'], expected_msg=msg)
 
     def test_empty_asmap(self):
-        self.log.info('Test bitcoind -asmap with empty map file')
+        self.log.info('Test trapcoind -asmap with empty map file')
         self.stop_node(0)
         empty_asmap = os.path.join(self.datadir, "ip_asn.map")
         with open(empty_asmap, "w") as f:
@@ -126,7 +126,7 @@ class AsmapTest(BitcoinTestFramework):
         os.remove(empty_asmap)
 
     def test_asmap_health_check(self):
-        self.log.info('Test bitcoind -asmap logs ASMap Health Check with basic stats')
+        self.log.info('Test trapcoind -asmap logs ASMap Health Check with basic stats')
         msg = "ASMap Health Check: 4 clearnet peers are mapped to 3 ASNs with 0 peers being unmapped"
         with self.node.assert_debug_log(expected_msgs=[msg]):
             self.start_node(0, extra_args=[f'-asmap={self.asmap_raw}'])

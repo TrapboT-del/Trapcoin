@@ -277,11 +277,11 @@ class Binaries:
         ] if use_valgrind else []
 
     def node_argv(self, **kwargs):
-        "Return argv array that should be used to invoke bitcoind"
+        "Return argv array that should be used to invoke trapcoind"
         return self._argv("node", self.paths.bitcoind, **kwargs)
 
     def rpc_argv(self):
-        "Return argv array that should be used to invoke bitcoin-cli"
+        "Return argv array that should be used to invoke trapcoin-cli"
         # Add -nonamed because "bitcoin rpc" enables -named by default, but bitcoin-cli doesn't
         return self._argv("rpc", self.paths.bitcoincli) + ["-nonamed"]
 
@@ -290,19 +290,19 @@ class Binaries:
         return self._argv("bench", self.paths.bitcoin_bench)
 
     def tx_argv(self):
-        "Return argv array that should be used to invoke bitcoin-tx"
+        "Return argv array that should be used to invoke trapcoin-tx"
         return self._argv("tx", self.paths.bitcointx)
 
     def util_argv(self):
-        "Return argv array that should be used to invoke bitcoin-util"
+        "Return argv array that should be used to invoke trapcoin-util"
         return self._argv("util", self.paths.bitcoinutil)
 
     def wallet_argv(self):
-        "Return argv array that should be used to invoke bitcoin-wallet"
+        "Return argv array that should be used to invoke trapcoin-wallet"
         return self._argv("wallet", self.paths.bitcoinwallet)
 
     def chainstate_argv(self):
-        "Return argv array that should be used to invoke bitcoin-chainstate"
+        "Return argv array that should be used to invoke trapcoin-chainstate"
         return self._argv("chainstate", self.paths.bitcoinchainstate)
 
     def _argv(self, command, bin_path, *, need_ipc=False, use_gui=False):
@@ -334,14 +334,14 @@ def get_binary_paths(config):
 
     paths = types.SimpleNamespace()
     binaries = {
-        "bitcoin": "BITCOIN_BIN",
-        "bitcoind": "BITCOIND",
+        "trapcoin": "BITCOIN_BIN",
+        "trapcoind": "BITCOIND",
         "bench_bitcoin": "BITCOIN_BENCH",
-        "bitcoin-cli": "BITCOINCLI",
-        "bitcoin-util": "BITCOINUTIL",
-        "bitcoin-tx": "BITCOINTX",
-        "bitcoin-chainstate": "BITCOINCHAINSTATE",
-        "bitcoin-wallet": "BITCOINWALLET",
+        "trapcoin-cli": "BITCOINCLI",
+        "trapcoin-util": "BITCOINUTIL",
+        "trapcoin-tx": "BITCOINTX",
+        "trapcoin-chainstate": "BITCOINCHAINSTATE",
+        "trapcoin-wallet": "BITCOINWALLET",
     }
     # Set paths to bitcoin core binaries allowing overrides with environment
     # variables.
