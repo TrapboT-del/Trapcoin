@@ -2,6 +2,14 @@
 
 ## mainnet_alt.json
 
+**TRAP:** this file still contains Bitcoin's alternate mainnet chain, which does
+not connect to the TRAP genesis block, so `mining_mainnet.py` is skipped. To
+regenerate it for TRAP, run
+`contrib/genesis/genesis_miner.cu --mainnet-alt <genesis-hash> <genesis-time> mainnet_alt.json`
+on a CUDA GPU. It spaces the blocks one second apart instead of two minutes so
+that the chain stays in the past relative to the recent TRAP genesis block; the
+first retarget still reaches the maximum difficulty increase (1 -> 4).
+
 For easier testing the difficulty is maximally increased in the first (and only)
 retarget period, by producing blocks approximately 2 minutes apart.
 

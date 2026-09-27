@@ -1,0 +1,36 @@
+# ckpool in solo mining mode for TRAP. Miners connect with stratum on port
+# 3333 and use their TRAP address as the username. Build ckpool with
+# contrib/ckpool/build-ckpool.sh and install the binary to /usr/local/bin.
+# See doc/trap-deploy.md.
+
+[Unit]
+Description=ckpool solo mining pool for TRAP
+Documentation=https://github.com/TrapboT-del/Trapcoin/blob/trap/doc/trap-deploy.md
+After=trapcoind.service
+Requires=trapcoind.service
+
+[Service]
+ExecStart=/usr/local/bin/ckpool -B -c /etc/trap/ckpool.conf -s /run/trap-ckpool
+Restart=on-failure
+RestartSec=5
+
+User=trap
+Group=trap
+
+# /run/trap-ckpool holds ckpool's control sockets
+RuntimeDirectory=trap-ckpool
+RuntimeDirectoryMode=0710
+
+# /var/lib/trap-ckpool holds the logs and per-user stats
+StateDirectory=trap-ckpool
+StateDirectoryMode=0710
+WorkingDirectory=/var/lib/trap-ckpool
+
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+NoNewPrivileges=true
+PrivateDevices=true
+
+[Install]
+WantedBy=multi-user.target

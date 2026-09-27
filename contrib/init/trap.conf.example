@@ -1,0 +1,23 @@
+# /etc/trap/trap.conf for a public TRAP mainnet node that also serves
+# block templates to ckpool. See doc/trap-deploy.md.
+
+server=1
+listen=1
+port=4200
+
+# RPC is for local use only (trapcoin-cli, ckpool). Never expose port 4199.
+rpcport=4199
+rpcbind=127.0.0.1
+rpcallowip=127.0.0.1
+# Generate with: share/rpcauth/rpcauth.py trapmine
+# and put the printed password in /etc/trap/ckpool.conf.
+rpcauth=trapmine:REPLACE_WITH_SALT_AND_HASH
+
+# Other TRAP nodes to connect to until DNS/fixed seeds exist.
+#addnode=OTHER_SERVER_IP:4200
+
+# Mining needs at least one peer and the node must not be in initial block
+# download. Until the chain has recent blocks, the node considers itself in
+# initial block download because the tip is older than 24 hours. Enable this
+# to mine the first blocks, and remove it once the chain is being extended.
+#maxtipage=315360000
