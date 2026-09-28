@@ -10,6 +10,9 @@ After=trapcoind.service
 Requires=trapcoind.service
 
 [Service]
+# ckpool silently falls back to built-in defaults (localhost:8332) when it
+# cannot read its config, so refuse to start instead.
+ExecStartPre=/usr/bin/test -r /etc/trap/ckpool.conf
 ExecStart=/usr/local/bin/ckpool -B -c /etc/trap/ckpool.conf -s /run/trap-ckpool
 Restart=on-failure
 RestartSec=5

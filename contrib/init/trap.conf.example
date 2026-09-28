@@ -10,8 +10,12 @@ rpcport=4199
 rpcbind=127.0.0.1
 rpcallowip=127.0.0.1
 # Generate with: share/rpcauth/rpcauth.py trapmine
-# and put the printed password in /etc/trap/ckpool.conf.
+# It prints the rpcauth= line for this file and, separately, the password for
+# "pass" in /etc/trap/ckpool.conf. Replace this line and the password together.
 rpcauth=trapmine:REPLACE_WITH_SALT_AND_HASH
+
+# No local Tor daemon: stop the node retrying the Tor control port.
+listenonion=0
 
 # Other TRAP nodes to connect to until DNS/fixed seeds exist.
 #addnode=OTHER_SERVER_IP:4200
@@ -19,5 +23,6 @@ rpcauth=trapmine:REPLACE_WITH_SALT_AND_HASH
 # Mining needs at least one peer and the node must not be in initial block
 # download. Until the chain has recent blocks, the node considers itself in
 # initial block download because the tip is older than 24 hours. Enable this
-# to mine the first blocks, and remove it once the chain is being extended.
+# to mine the first blocks (remove the leading '#'), and comment it out again
+# once the chain is being extended.
 #maxtipage=315360000

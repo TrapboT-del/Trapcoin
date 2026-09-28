@@ -1,0 +1,42 @@
+# Companion node for bootstrapping a new TRAP chain. It only connects to the
+# local trapcoind (see /etc/trap/companion.conf), so that trapcoind has a peer
+# and can serve block templates to ckpool before other nodes join.
+# See doc/trap-deploy.md section 6.
+
+[Unit]
+Description=TRAP companion node (bootstrap peer for trapcoind)
+Documentation=https://github.com/TrapboT-del/Trapcoin/blob/trap/doc/trap-deploy.md
+After=trapcoind.service
+Wants=trapcoind.service
+
+[Service]
+ExecStart=/usr/local/bin/trapcoind -pid=/run/trapcoind-companion/trapcoind.pid \
+                                   -conf=/etc/trap/companion.conf \
+                                   -datadir=/var/lib/trapcoind-companion \
+                                   -startupnotify='systemd-notify --ready' \
+                                   -shutdownnotify='systemd-notify --stopping'
+Type=notify
+NotifyAccess=all
+PIDFile=/run/trapcoind-companion/trapcoind.pid
+Restart=on-failure
+RestartSec=10
+TimeoutStartSec=infinity
+TimeoutStopSec=600
+
+User=trap
+Group=trap
+RuntimeDirectory=trapcoind-companion
+RuntimeDirectoryMode=0710
+StateDirectory=trapcoind-companion
+StateDirectoryMode=0710
+
+PrivateTmp=true
+ProtectSystem=full
+ProtectHome=true
+NoNewPrivileges=true
+PrivateDevices=true
+MemoryDenyWriteExecute=true
+SystemCallArchitectures=native
+
+[Install]
+WantedBy=multi-user.target
