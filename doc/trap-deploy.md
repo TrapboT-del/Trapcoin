@@ -12,9 +12,9 @@ ASIC 矿机 ──Stratum:3333──> ckpool（solo） ──RPC:4199──> tra
 
 | 端口 | 用途 | 是否对外开放 |
 |---|---|---|
-| 4200 | P2P，节点之间通信 | 开放 |
+| 4200 | P2P，节点之间通信 | 开放（见第 4 节） |
 | 4199 | RPC，仅供本机的 `trapcoin-cli` 和 ckpool 使用 | **绝不开放** |
-| 3333 | Stratum，矿机连接矿池 | 只对矿机所在网络开放 |
+| 3333 | Stratum，矿机连接矿池 | 开放（见第 4 节） |
 
 ## 1. 准备服务器
 
@@ -57,13 +57,32 @@ sudo systemctl enable --now trapcoind
 sudo -u trap trapcoin-cli -datadir=/var/lib/trapcoind -conf=/etc/trap/trap.conf getblockchaininfo
 ```
 
-## 4. 防火墙
+## 4. 防火墙：开放 4200 和 3333 端口
+
+服务器需要对外开放以下端口，**两层防火墙都要放行**，缺一不可：
+
+| 端口 | 协议 | 来源 | 用途 |
+|---|---|---|---|
+| 22 | TCP | 你的电脑（或所有） | SSH 远程登录，**必须保留，否则会连不上服务器** |
+| **4200** | TCP | 所有（`0.0.0.0/0`） | P2P，其他 TRAP 节点连进来 |
+| **3333** | TCP | 所有（`0.0.0.0/0`） | Stratum，矿机连接矿池；矿机不连本机矿池时可不开 |
+| 4199 | — | — | RPC，**不要开放** |
+
+**第一层：云平台安全组。** 在云服务商的网页控制台里，找到这台服务器的"安全组 / 防火墙"，
+添加入站规则：TCP 4200、TCP 3333，来源 `0.0.0.0/0`。
+
+**第二层：服务器系统防火墙（ufw）。**
 
 ```bash
-sudo ufw allow 4200/tcp                            # P2P
-sudo ufw allow from 矿机所在网段 to any port 3333 proto tcp   # Stratum
+sudo ufw allow OpenSSH       # 务必第一个执行，否则 enable 后会断开远程连接
+sudo ufw allow 4200/tcp      # P2P
+sudo ufw allow 3333/tcp      # Stratum
 sudo ufw enable
+sudo ufw status              # 确认三条规则都是 ALLOW
 ```
+
+在 solo 模式下，别人连上 3333 端口也只能给他自己的地址挖矿，拿不走你的币；
+如果想只允许自己的矿机，可以改用 `sudo ufw allow from 矿机的公网IP to any port 3333 proto tcp`。
 
 ## 5. 编译安装 ckpool
 

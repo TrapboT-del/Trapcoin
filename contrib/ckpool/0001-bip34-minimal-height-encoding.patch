@@ -1,0 +1,21 @@
+diff --git a/src/stratifier.c b/src/stratifier.c
+index ce21692e..a693e89f 100644
+--- a/src/stratifier.c
++++ b/src/stratifier.c
+@@ -611,11 +611,11 @@ static void generate_coinbase(workbase_t *wb)
+ 
+ 	ofs++; // Script length is filled in at the end @wb->coinb1bin[41];
+ 
+-	/* Put block height at start of template */
+-	if (unlikely(ckpool.regtest))
+-		len = ser_bip34_height(wb->coinb1bin + ofs, wb->height);
+-	else
+-		len = ser_number(wb->coinb1bin + ofs, wb->height);
++	/* Put block height at start of template. Use the minimal encoding
++	 * Bitcoin Core checks for BIP34 on every chain: TRAP enforces BIP34
++	 * from height 1, where heights 1-16 must be OP_1..OP_16. For heights
++	 * of 17 and above this is identical to ser_number(). */
++	len = ser_bip34_height(wb->coinb1bin + ofs, wb->height);
+ 	ofs += len;
+ 
+ 	/* Followed by flag. gen_gbtbase() bounds these but clamp again here

@@ -28,7 +28,12 @@ fi
 cd "$target"
 git checkout --quiet "$CKPOOL_COMMIT"
 git checkout --quiet -- .
-for patch in "$here"/*.patch; do
+patches=("$here"/*.patch)
+if [ ! -e "${patches[0]}" ]; then
+    echo "error: no TRAP patches found in $here" >&2
+    exit 1
+fi
+for patch in "${patches[@]}"; do
     git apply "$patch"
 done
 
